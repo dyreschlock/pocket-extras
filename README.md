@@ -6,4 +6,4 @@ In particular, there are JSON files for the Color Blind hacks for Super Puzzle F
 
 For example: For `Super Puzzle Fighter II X' Prime (Euro 2100823)`, the rom is named `spf2xe.rom`. Previously, for `Super Puzzle Fighter II X' Prime (Euro 2100823) [CB V.1]` it would use the same name. I changed it so it now makes this rom: `spf2xec1.rom`. The JSON files in the repo will look for this rom.
 
-For every JSON files I have in the repo, I've also included the MRA file.
+For every JSON files I have in the repo, I've also included the MRA file. And, each JSON has the corresponding Presets.
