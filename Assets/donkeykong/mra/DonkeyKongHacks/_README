@@ -1,0 +1,16 @@
+These are the 16 hacks from www.donkeykonghacks.net working on Analogue Pocket, I did not have anything do do with the creation of them.
+They are some of my favorite DK hacks out there. 
+
+A few things before I get into the process for these that is slightly different.
+These mras are just the standard set 1 mra that I edited to use the modified files.
+These mras DO NOT use the standard dkong.zip from all over the place.
+
+
+The steps for making the roms are:
+
+1. Download the ips files from http://www.donkeykonghacks.net
+2. Patch a fresh copy of dkong.zip with the ips you downloaded (The site in step #1 may have a hint of where to get a working dkong.zip under links)
+3. Rename the patched dkong.zip to whatever ips file you downloaded.
+		For example, if you downloaded dkaaa.ips, rename the patched dkong.zip to dkaaa.zip
+4. Convert to a .rom file in the usual way.
+5. Repeat these steps for each .rom you want to make
