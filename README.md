@@ -43,6 +43,10 @@ However, Block Block is a vertical game that requires screen rotation in the dip
 
 To make this core, duplicate `Cores/jotego.jtpang` on your SD card and call it `Cores/jotego.jtblock`. Then copy the contents of this release into the directories.
 
+## Contra
+
+There are 3 additional version of Contra that weren't included in <b><a href="https://www.patreon.com/jotego">Jotego's</a></b> release, so they've been included here thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b>.
+
 ## Final Note
 
 Many of these MRA files require some extra work in order to generate the roms correctly. The pocket updaters should pull down the correct files for each of these JSON, so you can skip making them yourself, if you'd like.
