@@ -1,0 +1,66 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2023. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" source="https://github.com/jotego" twitter="@topapate"/>
+    <name>Super Marukin-Ban (Japan 901017)</name>
+    <setname>marukina</setname>
+    <rbf>jtpang</rbf>
+    <mameversion>0248</mameversion>
+    <year>1990</year>
+    <manufacturer>Yuga</manufacturer>
+    <players>2</players>
+    <joystick/>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <mraauthor>jotego</mraauthor>
+    <rom index="0" zip="marukina.zip|marukin.zip" md5="None">
+        <part>
+            54 32 10 76 54 32 10 76
+            48 54 4F 00 00 00 01 00
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x80000 (19 bits) -->
+        <part name="mg3-01.9d" crc="04357973"/>
+        <part name="mg3-02.10d" crc="50d08da0"/>
+        <part repeat="0x58000"> FF</part>
+        <!-- PCM_START -->
+        <!-- oki - starts at 0x80000 - length 0x80000 (19 bits) -->
+        <part name="mg3-e.1d" crc="106c2fa9"/>
+        <!-- CHAR_START -->
+        <!-- chars - starts at 0x100000 - length 0x200000 (21 bits) -->
+        <part name="mg3-a.3k" crc="420f1de7"/>
+        <part name="mg3-b.4k" crc="d8de13fa"/>
+        <part name="mg3-c.6k" crc="fbeb66e8"/>
+        <part name="mg3-d.7k" crc="8f6bd831"/>
+        <!-- OBJ_START -->
+        <!-- sprites - starts at 0x300000 - length 0x40000 (18 bits) -->
+        <interleave output="16">
+            <part name="mg3-05.2g" crc="7a738d2d" map="01"/>
+            <part name="mg3-04.1g" crc="56f30515" map="10"/>
+        </interleave>
+        <!-- Total 0x340000 bytes - 3328 kBytes -->
+    </rom>
+    <nvram index="2" size="128"/>
+    <rom index="1">
+        <part>00</part>
+    </rom>
+    <buttons names="button 1,button 2,-,-,Start,Coin,Core credits" default="Y,X,B,A,Start,Select,-" count="2"/>
+</misterromdescription>
