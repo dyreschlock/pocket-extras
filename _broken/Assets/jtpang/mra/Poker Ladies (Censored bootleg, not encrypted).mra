@@ -1,0 +1,102 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2023. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" source="https://github.com/jotego" twitter="@topapate"/>
+    <name>Poker Ladies (Censored bootleg, not encrypted)</name>
+    <setname>pkladiesbl2</setname>
+    <rbf>jtpang</rbf>
+    <mameversion>0248</mameversion>
+    <year>1989</year>
+    <manufacturer>bootleg</manufacturer>
+    <players>1</players>
+    <joystick/>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <mraauthor>jotego</mraauthor>
+    <rom index="0" zip="pkladiesbl2.zip|pkladies.zip" md5="None">
+        <part>
+            76 54 32 10 01 23 45 67
+            AA 55 A5 00 00 00 00 00
+        </part>
+        <!-- maincpu - starts at 0x0 - length 0x80000 (19 bits) -->
+        <part name="1.ic112" crc="cadb9925"/>
+        <part name="2.ic126" crc="5c73e9b6"/>
+        <part repeat="0x50000"> FF</part>
+        <!-- PCM_START -->
+        <!-- oki - starts at 0x80000 - length 0x80000 (19 bits) -->
+        <part name="3.ic127" crc="16b79788"/>
+        <part repeat="0x60000"> FF</part>
+        <!-- CHAR_START -->
+        <!-- chars - starts at 0x100000 - length 0x200000 (21 bits) -->
+        <interleave output="16">
+            <part name="20.ic97" crc="ea72f6b5" map="01"/>
+            <part name="14.ic96" crc="d6fe4f36" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="10.ic95" crc="a2eff7a9" map="01"/>
+            <part name="6.ic110" crc="0be240fc" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="21.ic98" crc="45bb438c" map="01"/>
+            <part name="15.ic99" crc="afb0fa4a" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="11.ic100" crc="5d87135d" map="01"/>
+            <part name="7.ic101" crc="ee822998" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="18.ic105" crc="e088b5e2" map="01"/>
+            <part name="12.ic104" crc="5339daa7" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="8.ic103" crc="fa117809" map="01"/>
+            <part name="4.ic102" crc="09ba3171" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="19.ic106" crc="48540300" map="01"/>
+            <part name="13.ic107" crc="5bcf710e" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="9.ic108" crc="edf4c0f4" map="01"/>
+            <part name="5.ic109" crc="93422182" map="10"/>
+        </interleave>
+        <!-- OBJ_START -->
+        <!-- sprites - starts at 0x300000 - length 0x40000 (18 bits) -->
+        <interleave output="16">
+            <part name="17.ic41" crc="5a6efdcc" map="01"/>
+            <part name="16.ic42" crc="c6decb5e" map="10"/>
+        </interleave>
+        <!-- Total 0x340000 bytes - 3328 kBytes -->
+    </rom>
+    <nvram index="2" size="128"/>
+    <rom index="1">
+        <part>00</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="f8,f4">
+        <!-- DSW0 -->
+        <dip name="Coinage" bits="0,2" ids="1/1,1/2,1/3,1/4,1/6,2/1,3/1,4/1"/>
+        <dip name="Demo Sounds" bits="3" ids="Off,On"/>
+        <!-- DSW1 -->
+        <dip name="Maximum Hands" bits="8,11" ids="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15"/>
+    </switches>
+    <buttons names="button 1,button 2,-,-,Start,Coin,Core credits" default="Y,X,B,A,Start,Select,-" count="2"/>
+</misterromdescription>
