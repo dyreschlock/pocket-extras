@@ -32,7 +32,9 @@ Included in `pocket-extras` are:
 
 Additionally, all of these will run on the RadarScope core, so I made the same edits and additions there.
 
-Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for your help :)
+Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for all the dkhacks.net Hacks! :)
+
+For instructions building the dkhacks.net Hacks, <a href="/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
 
 ## Pang and Block Block
 
