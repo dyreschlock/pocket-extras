@@ -4,23 +4,20 @@ This repository contains several extra files to get more out of some FPGA cores.
 
 Current extras and edits are as follows
 
-## Capcom CPS2
+## Capcom CPS2 and Capcom CPS1.5
 
-The CPS2 core is currently in beta from <b>Jotego</b>. Please support Jotego on <b><a href="https://www.patreon.com/jotego">Patreon</a></b> as he has done absolutely amazing work in the FPGA scene for the Mister and the Pocket.
+The CPS cores are developed by <b>Jotego</b> and team. Please support Jotego on <b><a href="https://www.patreon.com/jotego">Patreon</a></b> as he has done absolutely amazing work in the FPGA scene for the Mister and the Pocket.
 
-Included in `pocket-extras` are several games that work on the beta release including: 
-- Darkstalkers 1
-- Phoenix Edition of supported games
-- Punisher cps1.5 conversion
-- Street Fighter II Championship Edition cps1 conversion
-- Final Fight 30th Anniversary CPS2 version
-- some Arcade_Offset hacks
+Included in `pocket-extras` are several games that work on the release including: 
+- CPS1 and CPS1.5 Conversions to CPS2, including The Punisher, Street Fighter II Championship Edition, and Final Fight 30th Anniversary Edition
+- CPS1 Conversions to CPS1.5, including Mega Man Power Battle and Street Fighter Zero
+- Arcade_Offset hacks for CPS2
 
-In particular, from Arcade_Offset, the color blind hacks for Super Puzzle Fighter are included. However, I changed the MRA files slightly. Originally, those MRA files created roms with identical names to the main rom. I changed the MRA files so they create a separate rom.
+In particular, from <a href="https://github.com/atrac17/Arcade_Offset">Arcade_Offset</a>, the color blind hacks for Super Puzzle Fighter are included. However, I changed the MRA files slightly. Originally, those MRA files created roms with identical names to the main rom. I changed the MRA files so they create a separate rom.
 
 For example: For `Super Puzzle Fighter II X' Prime (Euro 2100823)`, the rom is named `spf2xe.rom`. Previously, for `Super Puzzle Fighter II X' Prime (Euro 2100823) [CB V.1]` it would use the same name. I changed it so it now makes this rom: `spf2xec1.rom`. The JSON files in the repo will look for this rom.
 
-For every JSON files I have in the repo, I've also included the MRA file. And, each JSON has the corresponding Presets.
+For almost every JSON file I have in the repo, I've also included the MRA file. And, each JSON has the corresponding Presets.
 
 ## Donkey Kong and Radar Scope
 
