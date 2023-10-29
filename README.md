@@ -13,6 +13,8 @@ Included in `pocket-extras` are several games that work on the release including
 - CPS1 Conversions to CPS1.5, including Mega Man Power Battle and Street Fighter Zero
 - Arcade_Offset hacks for CPS2
 
+CPS Conversions were done by <a href="https://github.com/terminator2k2">terminator2k2</a>.
+
 In particular, from <a href="https://github.com/atrac17/Arcade_Offset">Arcade_Offset</a>, the color blind hacks for Super Puzzle Fighter are included. However, I changed the MRA files slightly. Originally, those MRA files created roms with identical names to the main rom. I changed the MRA files so they create a separate rom.
 
 For example: For `Super Puzzle Fighter II X' Prime (Euro 2100823)`, the rom is named `spf2xe.rom`. Previously, for `Super Puzzle Fighter II X' Prime (Euro 2100823) [CB V.1]` it would use the same name. I changed it so it now makes this rom: `spf2xec1.rom`. The JSON files in the repo will look for this rom.
