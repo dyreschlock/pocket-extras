@@ -10,6 +10,10 @@
 			{
 				"id": 1,
 				"filename": "spf2xjc1.rom"
+			},
+			{
+				"id": 2,
+				"filename": "spf2xic1.sav"
 			}
 		],
 		"memory_writes": [

@@ -10,6 +10,10 @@
 			{
 				"id": 1,
 				"filename": "punicps2.rom"
+			},
+			{
+				"id": 2,
+				"filename": "punicps2.sav"
 			}
 		],
 		"memory_writes": [
