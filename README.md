@@ -36,13 +36,11 @@ Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for all the 
 
 For instructions building the dkhacks.net Hacks, <a href="/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
 
-## Pang and Block Block
+## Jotego Extras
 
-The Pang core released by <b><a href="https://www.patreon.com/jotego">Jotego</a></b> can play some more games than the JSON available in the core release.  Included are all the JSON and MRA files for them.
+There are some extra MRA files floating around out there that create games that work on released Jotego cores. Those have been included and are as follows.
 
-However, Block Block is a vertical game that requires screen rotation in the dipswitches. I'm not sure what those settings are, but <b><a href="https://github.com/terminator2k2">Terminator2k2</a></b> made a duplicate of the pang core that will rotate the screen and make the game playable. This core is called `jtblock`
-
-To make this core, duplicate `Cores/jotego.jtpang` on your SD card and call it `Cores/jotego.jtblock`. Then copy the contents of this release into the directories.
+- Dokaben 2 for JTpang
 
 ## Final Note
 
