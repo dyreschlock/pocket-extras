@@ -7,32 +7,32 @@
 				"mappings": [
 					{
 						"id": 0,
-						"name": "button 0",
+						"name": "Light Punch",
 						"key": "pad_btn_a"
 					},
 					{
 						"id": 1,
-						"name": "button 1",
+						"name": "Middle Punch",
 						"key": "pad_btn_b"
 					},
 					{
 						"id": 2,
-						"name": "button 2",
+						"name": "Heavy Punch",
 						"key": "pad_btn_x"
 					},
 					{
 						"id": 3,
-						"name": "button 3",
+						"name": "Light Kick",
 						"key": "pad_btn_y"
 					},
 					{
 						"id": 4,
-						"name": "button 4",
+						"name": "Middle Kick",
 						"key": "pad_trig_l"
 					},
 					{
 						"id": 5,
-						"name": "button 5",
+						"name": "Heavy Kick",
 						"key": "pad_trig_r"
 					}
 				]
