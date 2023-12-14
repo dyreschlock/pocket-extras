@@ -1,0 +1,62 @@
+{
+    "interact": {
+      "magic": "APF_VER_1",
+      "variables": [
+        {
+          "name": "Test Mode",
+          "id": 2,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFFFFFFE",
+          "defaultval": 0,
+          "value": "0x1"
+        },
+        {
+          "name": "Special Ver.",
+          "id": 3,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFF7FFFFF",
+          "defaultval": 1,
+          "value": "0x800000"
+        },
+        {
+          "name": "Free Play",
+          "id": 4,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFFFFFE3",
+          "defaultval": 0,
+          "value": "0x1C"
+        },
+        {
+          "name": "Stage Edit",
+          "id": 5,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFF7FFFF",
+          "defaultval": 0,
+          "value": "0x80000"
+        },
+        {
+          "name": "Custom Dips",
+          "id": 6,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0x88001D",
+          "defaultval": 1,
+          "value": "0x000000C0"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,25 @@
+{
+    "instance": {
+      "magic": "APF_VER_1",
+      "core_select" : {
+        "id" : 1,
+        "select" : true
+      },
+      "data_slots": [
+        {
+          "id": 1,
+          "filename": "bbakraid.rom"
+        }
+      ],
+      "memory_writes": [
+        {
+          "address": "0xf9000000",
+          "data": "0x0"
+        },
+        {
+          "address": "0xfa000000",
+          "data": "0x00000000"
+        }
+      ]
+    }
+  }

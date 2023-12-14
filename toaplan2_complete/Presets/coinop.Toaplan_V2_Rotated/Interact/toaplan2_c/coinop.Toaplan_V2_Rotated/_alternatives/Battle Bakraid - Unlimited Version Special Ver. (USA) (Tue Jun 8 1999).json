@@ -1,0 +1,84 @@
+{
+    "interact": {
+      "magic": "APF_VER_1",
+      "variables": [
+        {
+          "name": "Test Mode",
+          "id": 2,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFFFFFFE",
+          "defaultval": 0,
+          "value": "0x1"
+        },
+        {
+          "name": "Special Ver.",
+          "id": 3,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFF7FFFFF",
+          "defaultval": 1,
+          "value": "0x800000"
+        },
+        {
+          "name": "Free Play",
+          "id": 4,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFFFFFE3",
+          "defaultval": 0,
+          "value": "0x1C"
+        },
+        {
+          "name": "Hit Score",
+          "id": 5,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFFFFFDF",
+          "defaultval": 1,
+          "value": "0x20"
+        },
+        {
+          "name": "Stage Edit",
+          "id": 6,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFFBFFFF",
+          "defaultval": 1,
+          "value": "0x40000"
+        },
+        {
+          "name": "Invincible",
+          "id": 7,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0xFFEFFFFF",
+          "defaultval": 0,
+          "value": "0x100000"
+        },
+        {
+          "name": "Custom Dips",
+          "id": 8,
+          "type": "check",
+          "enabled": true,
+          "persist": true,
+          "address": "0xFA000000",
+          "mask": "0x94003D",
+          "defaultval": 1,
+          "value": "0x000000C0"
+        }
+      ]
+    }
+  }

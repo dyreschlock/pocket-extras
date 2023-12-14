@@ -1,0 +1,103 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "name": "Test Mode",
+        "id": 2,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFB",
+        "defaultval": 0,
+        "value": "0x4"
+      },
+      {
+        "name": "Free Play",
+        "id": 3,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFE",
+        "defaultval": 0,
+        "value": "0x1"
+      },
+      {
+        "name": "Region",
+        "id": 4,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFF0FFFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value" : "0x20000",
+            "name":"USA"
+          },
+          {
+            "value": "0x0",
+            "name":"Japan"
+          },
+          {
+            "value" : "0x40000",
+            "name":"Europe"
+          }
+        ]
+      },
+      {
+        "name": "Difficulty",
+        "id": 5,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFCFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "Normal"
+          },
+          {
+            "value": 256,
+            "name": "Easy"
+          },
+          {
+            "value": 512,
+            "name": "Hard"
+          },
+          {
+            "value": 768,
+            "name": "Very Hard"
+          }
+        ]
+      },
+      {
+        "name": "Invincibility",
+        "id": 6,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFBFFF",
+        "defaultval": 0,
+        "value": "0x4000"
+      },
+      {
+        "name": "Custom Dips",
+        "id": 7,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xF4305",
+        "defaultval": 1,
+        "value": "0x00000000"
+      }
+    ]
+  }
+}

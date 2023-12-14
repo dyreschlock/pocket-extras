@@ -1,0 +1,49 @@
+{
+    "core": {
+        "magic": "APF_VER_1",
+        "metadata": {
+            "platform_ids": ["toaplan2_c"],
+            "shortname": "Toaplan_V2_Rotated",
+            "description": "Toaplan V2 Hardware (Rotated)",
+            "author": "coinop",
+            "url": "https://github.com/Coin-OpCollection",
+            "version": "0.0.1",
+            "date_release": "2022-09-23"
+        },
+        "framework": {
+            "target_product": "Analogue Pocket",
+            "version_required": "1.1",
+            "sleep_supported": false,
+            "dock": {
+                "supported": true,
+                "analog_output": false
+            },
+            "hardware": {
+                "link_port": false,
+                "cartridge_adapter": -1
+            }
+        },
+        "cores": [
+            {
+                "name": "garegga",
+                "id": 0,
+                "filename": "GAREGGA.rbf_r"
+            },
+            {
+                "name": "bakraid",
+                "id": 1,
+                "filename": "BAKRAID.rbf_r"
+            },
+            {
+                "name": "batrider",
+                "id": 2,
+                "filename": "BATRIDER.rbf_r"
+            },
+            {
+                "name": "truxton2",
+                "id": 3,
+                "filename": "truxton2.rbf_r"
+            }
+        ]
+    }
+}

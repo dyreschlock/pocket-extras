@@ -1,0 +1,39 @@
+{
+    "core": {
+        "magic": "APF_VER_1",
+        "metadata": {
+            "platform_ids": ["toaplan2_c"],
+            "shortname": "Toaplan_V2_Standard",
+            "description": "Toaplan V2 Hardware (Standard)",
+            "author": "coinop",
+            "url": "https://github.com/Coin-OpCollection",
+            "version": "0.0.1",
+            "date_release": "2022-09-23"
+        },
+        "framework": {
+            "target_product": "Analogue Pocket",
+            "version_required": "1.1",
+            "sleep_supported": false,
+            "dock": {
+                "supported": true,
+                "analog_output": false
+            },
+            "hardware": {
+                "link_port": false,
+                "cartridge_adapter": -1
+            }
+        },
+        "cores": [
+            {
+                "name": "snowbros2",
+                "id": 0,
+                "filename": "SNOWBROS2.rbf_r"
+            },
+            {
+                "name": "pipibibs",
+                "id": 1,
+                "filename": "pipibibs.rbf_r"
+            }
+        ]
+    }
+}

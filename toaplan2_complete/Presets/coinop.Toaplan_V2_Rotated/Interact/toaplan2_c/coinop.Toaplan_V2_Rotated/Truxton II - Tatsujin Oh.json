@@ -1,0 +1,146 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "name": "Rapid Fire",
+        "id": 2,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFE",
+        "defaultval": 0,
+        "value": "0x0"
+      },
+      {
+        "name": "Test Mode",
+        "id": 3,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFB",
+        "defaultval": 0,
+        "value": "0x4"
+      },
+      {
+        "name": "Advertise Sound",
+        "id": 4,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFF7",
+        "defaultval": 0,
+        "value": "0x8"
+      },
+      {
+        "name": "Difficulty",
+        "id": 5,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFCFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "Normal"
+          },
+          {
+            "value": 256,
+            "name": "Easy"
+          },
+          {
+            "value": 512,
+            "name": "Hard"
+          },
+          {
+            "value": 768,
+            "name": "Very Hard"
+          }
+        ]
+      },
+      {
+        "name": "Extend Player",
+        "id": 6,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFF3FF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "70k/200k"
+          },
+          {
+            "value": 1024,
+            "name": "100k/250k"
+          },
+          {
+            "value": 2048,
+            "name": "100k"
+          },
+          {
+            "value": 3072,
+            "name": "200k"
+          }
+        ]
+      },
+      {
+        "name": "Hero Counts",
+        "id": 7,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFCFFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "3"
+          },
+          {
+            "value": 4096,
+            "name": "5"
+          },
+          {
+            "value": 8192,
+            "name": "4"
+          },
+          {
+            "value": 12288,
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "id": 8,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFBFFF",
+        "defaultval": 0,
+        "value": "0x4000"
+      },
+      {
+        "name": "Continue Play",
+        "id": 9,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFF7FFF",
+        "defaultval": 0,
+        "value": "0x8000"
+      },
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+<misterromdescription>
+    <name>Snow Bros. 2 - With New Elves / Otenki Paradise (Hanafram)</name>
+    <setname>snowbro2</setname>
+    <rbf>toaplan2_c</rbf>
+    <mameversion>0245</mameversion>
+    <year>1994</year>
+    <manufacturer>Hanafram</manufacturer>
+    <players>4</players>
+    <joystick>8-way</joystick>
+    <rotation>horizontal</rotation>
+    <region>World</region>
+    <platform>Toaplan 2</platform>
+    <category>Platform</category>
+    <catver>Platform / Run Jump</catver>
+    <mraauthor>atrac17</mraauthor>
+    <rom index="0" zip="snowbro2.zip" md5="None" address="0x30000000">
+        <!-- mapper for game 00 - default, 02 - snowbro2 -->
+        <part>02</part>
+        <!-- maincpu - starts at 0x0 -->
+        <interleave output="16">
+            <part name="pro-4" crc="4c7ee341" map="12"/>
+        </interleave>
+        <!-- gp9001_0 - starts at 0x80000 -->
+        <interleave output="16">
+            <part name="rom2-l" crc="e9d366a9" map="01"/>
+            <part name="rom3-l" crc="eb06e332" map="10"/>
+        </interleave>
+        <interleave output="16">
+            <part name="rom2-h" crc="9aab7a62" map="01"/>
+            <part name="rom3-h" crc="df4a952a" map="10"/>
+        </interleave>
+        <!-- oki1 - starts at 0x380000 -->
+        <part name="rom4" crc="638f341e"/>
+        <!-- Total 0x400000 bytes - 4096 kBytes -->
+    </rom>
+    <rom index="1">
+        <part>00</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="8" default="00,00,00">
+        <!-- DSWA -->
+        <dip name="Continue Price" bits="0" ids="Normal,Discount"/>
+        <dip name="Invert Screen" bits="1" ids="Off,On"/>
+        <dip name="Test Mode" bits="2" ids="Off,On"/>
+        <dip name="Advertise Sound" bits="3" ids="On,Off"/>
+        <dip name="Coin A" bits="4,5" ids="1/1,2/1,1/2,3/1,2/1,4/1,2/3"/>
+        <dip name="Coin B" bits="6,7" ids="1/1,1/2,1/2,1/3,2/1,1/4,2/3,1/6"/>
+        <!-- DSWB -->
+        <dip name="Difficulty" bits="8,9" ids="Normal,Easy,Hard,Very Hard"/>
+        <dip name="Extend Player" bits="10,11" ids="100k,100k/500k,200k,None"/>
+        <dip name="Player Count" bits="12,13" ids="3,4,2,1"/>
+        <dip name="No Death" bits="14" ids="Off,On"/>
+        <dip name="Player Count" bits="15" ids="4,2"/>
+        <!-- JMPR -->
+        <dip name="Region" bits="18,20" ids="JPN,USA,EU,KOR,HK,TWN"/>
+    </switches>
+    <buttons names="Shot,Jump,Start 3/4,Start 1/2,Coin,Pause" default="Y,X,R,L,Start" count="2"/>
+</misterromdescription>

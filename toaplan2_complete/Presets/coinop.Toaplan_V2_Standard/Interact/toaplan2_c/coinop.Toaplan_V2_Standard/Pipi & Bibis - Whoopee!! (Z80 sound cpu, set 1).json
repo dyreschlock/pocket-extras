@@ -1,0 +1,135 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "name": "Test Mode",
+        "id": 2,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFB",
+        "defaultval": 0,
+        "value": "0x4"
+      },
+      {
+        "name": "Advertise Sound",
+        "id": 3,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFF7",
+        "defaultval": 0,
+        "value": "0x8"
+      },
+      {
+        "name": "Difficulty",
+        "id": 4,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFCFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "Normal"
+          },
+          {
+            "value": 256,
+            "name": "Easy"
+          },
+          {
+            "value": 512,
+            "name": "Hard"
+          },
+          {
+            "value": 768,
+            "name": "Very Hard"
+          }
+        ]
+      },
+      {
+        "name": "Extend Player",
+        "id": 5,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFF3FF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "200k/300k"
+          },
+          {
+            "value": 1024,
+            "name": "150k/200k"
+          },
+          {
+            "value": 2048,
+            "name": "200k"
+          },
+          {
+            "value": 3072,
+            "name": "None"
+          }
+        ]
+      },
+      {
+        "name": "Hero Counts",
+        "id": 6,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFCFFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "3"
+          },
+          {
+            "value": 4096,
+            "name": "5"
+          },
+          {
+            "value": 8192,
+            "name": "4"
+          },
+          {
+            "value": 12288,
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "id": 7,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFBFFF",
+        "defaultval": 0,
+        "value": "0x4000"
+      },
+      {
+        "name": "Nudity",
+        "id": 8,
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFBFFF",
+        "defaultval": 0,
+        "value": "0x80000"
+      },
+    ]
+  }
+}
