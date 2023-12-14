@@ -13,13 +13,21 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Zip Folder
-        run: zip -r pocket-extras-${{ github.event.release.tag_name }}.zip . -x ".git/*" ".github/*" "README.md" "_broken/*"
+        run: cd dk_extras; zip -r pocket-extras-dk-${{ github.event.release.tag_name }}.zip .
+
+      - name: Zip Folder
+        run: cd jotego_extras; zip -r pocket-extras-jotego-${{ github.event.release.tag_name }}.zip .
+
+      - name: Zip Folder
+        run: cd toaplan2_complete; zip -r pocket-extras-toaplan2_c-${{ github.event.release.tag_name }}.zip .
 
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            ./pocket-extras-${{ github.event.release.tag_name }}.zip
+            ./dk_extras/pocket-extras-dk-${{ github.event.release.tag_name }}.zip
+            ./jotego_extras/pocket-extras-jotego-${{ github.event.release.tag_name }}.zip
+            ./toaplan2_complete/pocket-extras-toaplan2_c-${{ github.event.release.tag_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
