@@ -52,7 +52,7 @@ For instructions building the dkhacks.net Hacks, <a href="/dk-extras/Assets/donk
 
 ## Toaplan Version 2 Hardware combo-core
 
-<img src="/toaplan2_complete/Cores/coinop.Toaplan_V2_Rotated/toaplan_c.png" />
+<img src="/toaplan2_complete/Cores/coinop.Toaplan_V2_Rotated/toaplan2_c.png" />
 
 The Coin-Op Collection group has now released all of their games based on the Toaplan Version 2 Hardware arcade board on the Analogue Pocket. In 2022, <a href="https://github.com/psomashekar">pram0d</a> released <b>Battle Garegga</b>, <b>Battle Bakraid</b>, <b>Sorcer Strike</b>, <b>Kingdom Grand Prix</b>, <b>Armed Police Batrider</b>, and <b>Snow Bros 2</b> for the Pocket. And recently, in 2023, <a href="https://github.com/atrac17">atrac17</a> released <b>Truxton 2</b> and <b>Pipi & Bibs</b>. There are more games based on this arcade hardware, but these 8 games are all of the ones currently implemented in FPGA.
 
