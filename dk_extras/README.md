@@ -13,7 +13,7 @@ Additionally, all of these will run on the RadarScope core, so I made the same e
 
 Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for all the dkhacks.net Hacks! :)
 
-For instructions building the dkhacks.net Hacks, <a href="/dk-extras/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
+For instructions building the dkhacks.net Hacks, <a href="/dk_extras/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
 
 ### Note
 

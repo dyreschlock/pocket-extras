@@ -35,7 +35,7 @@ For almost every JSON file I have in the repo, I've also included the MRA file. 
 There are some extra MRA files, other games and hacks floating around out there that create ROMs that work on released Jotego cores. Those have been included and are as follows.
 
 - Dokaben 2 for JTpang
-- Bubble Bobble Ultra for JTbubl (instructions <a href="/jotego-extras/Assets/jtbubl/mra/README.md">here</a>)
+- Bubble Bobble Ultra for JTbubl (instructions <a href="/jotego_extras/Assets/jtbubl/mra/README.md">here</a>)
 
 ## Donkey Kong and Radar Scope
 
@@ -52,7 +52,7 @@ Additionally, all of these will run on the RadarScope core, so I made the same e
 
 Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for all the dkhacks.net Hacks! :)
 
-For instructions building the dkhacks.net Hacks, <a href="/dk-extras/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
+For instructions building the dkhacks.net Hacks, <a href="/dk_extras/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
 
 ## Toaplan Version 2 Hardware combo-core
 
