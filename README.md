@@ -2,11 +2,18 @@
 
 This repository contains several extra files to get more out of some FPGA cores. The majority of these files are extra JSON and MRA for more games that currently run on released cores, but were not included in their releases for whatever reason. If any of this stuff gets added to those releases in the future, it'll be removed from here.
 
-Current extras and edits are as follows
+Additionally, I've added a combination core that collects all of the games from the Toaplan Version 2 Hardware arcade board.
 
-## Capcom CPS2 and Capcom CPS1.5
+Current extras and edits are collected into the following 3 categories:
+- <b>Jotego Extras</b>
+- <b>Donkey Kong Extras</b>
+- <b>Toaplan V2 Combination Core</b>
 
-The CPS cores are developed by <b>Jotego</b> and team. Please support Jotego on <b><a href="https://www.patreon.com/jotego">Patreon</a></b> as he has done absolutely amazing work in the FPGA scene for the Mister and the Pocket.
+## Jotego Extras
+
+<b>Jotego</b> has done some amazing work in the FPGA scene for the Mister and Pocket. To date, he has released the most amount of arcade cores on the Pocket, including CPS1, CPS2, Sega System 16, The Simpsons, TMNT, and so many more. Please support Jotego on <b><a href="https://www.patreon.com/jotego">Patreon</a></b>.
+
+### Capcom CPS2 and Capcom CPS1.5
 
 Included in `pocket-extras` are several games that work on the release including: 
 - CPS1 and CPS1.5 Conversions to CPS2, including The Punisher, Street Fighter II Championship Edition, and Final Fight 30th Anniversary Edition
@@ -21,6 +28,13 @@ For example: For `Super Puzzle Fighter II X' Prime (Euro 2100823)`, the rom is n
 
 For almost every JSON file I have in the repo, I've also included the MRA file. And, each JSON has the corresponding Presets.
 
+### Other Jotego Extras
+
+There are some extra MRA files, other games and hacks floating around out there that create ROMs that work on released Jotego cores. Those have been included and are as follows.
+
+- Dokaben 2 for JTpang
+- Bubble Bobble Ultra for JTbubl (instructions <a href="/jotego-extras/Assets/jtbubl/mra/README.md">here</a>)
+
 ## Donkey Kong and Radar Scope
 
 The <b><a href="https://github.com/ericlewis/openFPGA-DonkeyKong">Donkey Kong</a></b> and <b><a href="https://github.com/ericlewis/openFPGA-RadarScope">Radar Scope</a></b> cores were created by Eric Lewis, and he developed them to load a single rom at a time.  When you select the core, it'll immediately boot into Donkey Kong. Modern arcade cores allow you to choose a JSON file for the game you want to play, which allows the core to play multiple games, rather than just one.  Donkey Kong has many many romhacks, so I made some edits to the `data.json` which allows JSON to be selected.
@@ -34,14 +48,21 @@ Additionally, all of these will run on the RadarScope core, so I made the same e
 
 Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for all the dkhacks.net Hacks! :)
 
-For instructions building the dkhacks.net Hacks, <a href="/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
+For instructions building the dkhacks.net Hacks, <a href="/dk-extras/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
 
-## Jotego Extras
+## Toaplan Version 2 Hardware combo-core
 
-There are some extra MRA files, other games and hacks floating around out there that create ROMs that work on released Jotego cores. Those have been included and are as follows.
+The Coin-Op Collection group has now released all of their games based on the Toaplan Version 2 Hardware arcade board on the Analogue Pocket. In 2022, <a href="https://github.com/psomashekar">pram0d</a> released <b>Battle Garegga</b>, <b>Battle Bakraid</b>, <b>Sorcer Strike</b>, <b>Kingdom Grand Prix</b>, <b>Armed Police Batrider</b>, and <b>Snow Bros 2</b> for the Pocket. And recently, in 2023, <a href="https://github.com/atrac17">atrac17</a> released <b>Truxton 2</b> and <b>Pipi & Bibs</b>. There are more games based on this arcade hardware, but these 8 games are all of the ones currently implemented in FPGA.
 
-- Dokaben 2 for JTpang
-- Bubble Bobble Ultra for JTbubl (instructions <a href="/Assets/jtbubl/mra/README.md">here</a>)
+All of them have been released as Single Game cores. You can find those implementations here: <a href="https://github.com/Coin-OpCollection/Distribution-OpenFPGA">Coin-OpCollection/Distribution-OpenFPGA</a>
+
+I've taken all of these cores and combined them into a single Arcade Multi core. This should help clean up your Arcade folder on the openFPGA menu.
+
+<b>**Note</b>: This distribution does not contain the actual RBF core files. Please download the cores from Coin-Op, and copy the RBF files into the correct locations.
+
+<b>**Note 2</b>: All JSON files are expecting the full set name rather than a truncated 8 character one. (Similar to Jotego's approach)
+
+Please read full instructions: <b><a href="/toaplan2_complete/README.md">here</a></b>
 
 ## Final Note
 
