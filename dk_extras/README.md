@@ -1,5 +1,7 @@
 # Donkey Kong and Radar Scope Extras
 
+![DonkeyKong](https://github.com/dyreschlock/pocket-platform-images/blob/v4.0.0/pics/arcade/donkeykong.png?raw=true)
+
 The <b><a href="https://github.com/ericlewis/openFPGA-DonkeyKong">Donkey Kong</a></b> and <b><a href="https://github.com/ericlewis/openFPGA-RadarScope">Radar Scope</a></b> cores were created by Eric Lewis, and he developed them to load a single rom at a time.  When you select the core, it'll immediately boot into Donkey Kong. Modern arcade cores allow you to choose a JSON file for the game you want to play, which allows the core to play multiple games, rather than just one.  Donkey Kong has many many romhacks, so I made some edits to the `data.json` which allows JSON to be selected.
 
 Included in `pocket-extras` are:

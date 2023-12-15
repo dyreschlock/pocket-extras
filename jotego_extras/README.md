@@ -4,6 +4,8 @@
 
 ## Capcom CPS2 and Capcom CPS1.5
 
+![CPS2](https://github.com/dyreschlock/pocket-platform-images/blob/v4.0.0/pics/arcade/jtcps2.png?raw=true)
+
 Included in `pocket-extras` are several games that work on the release including: 
 - CPS1 and CPS1.5 Conversions to CPS2, including The Punisher, Street Fighter II Championship Edition, and Final Fight 30th Anniversary Edition
 - CPS1 Conversions to CPS1.5, including Mega Man Power Battle and Street Fighter Zero

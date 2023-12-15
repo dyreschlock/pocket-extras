@@ -15,6 +15,8 @@ Current extras and edits are collected into the following 3 categories:
 
 ### Capcom CPS2 and Capcom CPS1.5
 
+![CPS2](https://github.com/dyreschlock/pocket-platform-images/blob/v4.0.0/pics/arcade/jtcps2.png?raw=true)
+
 Included in `pocket-extras` are several games that work on the release including: 
 - CPS1 and CPS1.5 Conversions to CPS2, including The Punisher, Street Fighter II Championship Edition, and Final Fight 30th Anniversary Edition
 - CPS1 Conversions to CPS1.5, including Mega Man Power Battle and Street Fighter Zero
@@ -37,6 +39,8 @@ There are some extra MRA files, other games and hacks floating around out there 
 
 ## Donkey Kong and Radar Scope
 
+![DonkeyKong](https://github.com/dyreschlock/pocket-platform-images/blob/v4.0.0/pics/arcade/donkeykong.png?raw=true)
+
 The <b><a href="https://github.com/ericlewis/openFPGA-DonkeyKong">Donkey Kong</a></b> and <b><a href="https://github.com/ericlewis/openFPGA-RadarScope">Radar Scope</a></b> cores were created by Eric Lewis, and he developed them to load a single rom at a time.  When you select the core, it'll immediately boot into Donkey Kong. Modern arcade cores allow you to choose a JSON file for the game you want to play, which allows the core to play multiple games, rather than just one.  Donkey Kong has many many romhacks, so I made some edits to the `data.json` which allows JSON to be selected.
 
 Included in `pocket-extras` are:
@@ -52,7 +56,7 @@ For instructions building the dkhacks.net Hacks, <a href="/dk-extras/Assets/donk
 
 ## Toaplan Version 2 Hardware combo-core
 
-<img src="/toaplan2_complete/Cores/coinop.Toaplan_V2_Rotated/toaplan2_c.png" />
+![Toaplan](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/arcade/toaplan2_c.png?raw=true)
 
 The Coin-Op Collection group has now released all of their games based on the Toaplan Version 2 Hardware arcade board on the Analogue Pocket. In 2022, <a href="https://github.com/psomashekar">pram0d</a> released <b>Battle Garegga</b>, <b>Battle Bakraid</b>, <b>Sorcer Strike</b>, <b>Kingdom Grand Prix</b>, <b>Armed Police Batrider</b>, and <b>Snow Bros 2</b> for the Pocket. And recently, in 2023, <a href="https://github.com/atrac17">atrac17</a> released <b>Truxton 2</b> and <b>Pipi & Bibs</b>. There are more games based on this arcade hardware, but these 8 games are all of the ones currently implemented in FPGA.
 
