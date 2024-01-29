@@ -5,7 +5,7 @@
               This work is not mantained by the MiSTer project. Please contact the
               core author for issues and updates.
 
-              (c) Jose Tejada, 2021. Please support the author
+              (c) Jose Tejada, 2024. Please support the author
               Patreon: https://patreon.com/topapate
               Paypal:  https://paypal.me/topapate
 
@@ -8963,5 +8963,5 @@
         <part>01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 01 00 00 00 01 03 00 00 00 00 00 00 00 00 06 97 00 12 10 96 ff 01 52 50 47 4f 4a 45 4e 50 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 02 01 01 00 00 00 01 03 00 00 00 00 00 00 00 00 06 97 00 12 10 96 ff 01 52 50 47 4f 4a 45 4e 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</part>
     </rom>
     <nvram index="2" size="128"/>
-    <buttons names="Shot,Bomb,Rapid Shot,-,-,-,Start,Coin,Core credits" default="Y,X,BALR,Select,Start,-" count="3"/>
+    <buttons names="Shot,Bomb,Rapid Shot,-,-,-,Start,Coin,Core credits" default="A,B,X,Start,Select,-" count="3"/>
 </misterromdescription>

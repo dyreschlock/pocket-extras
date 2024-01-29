@@ -9,11 +9,11 @@
 		"data_slots": [
 			{
 				"id": 1,
-				"filename": "progerhh.rom"
+				"filename": "progearhh.rom"
 			},
 			{
 				"id": 2,
-				"filename": "progerhh.sav"
+				"filename": "progearhh.sav"
 			}
 		],
 		"memory_writes": [

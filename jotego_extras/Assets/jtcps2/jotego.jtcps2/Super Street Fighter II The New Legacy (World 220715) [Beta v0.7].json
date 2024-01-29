@@ -9,11 +9,11 @@
 		"data_slots": [
 			{
 				"id": 1,
-				"filename": "ssf2tl_7.rom"
+				"filename": "ssf2tnl_7.rom"
 			},
 			{
 				"id": 2,
-				"filename": "ssf2tl_7.sav"
+				"filename": "ssf2tnl_7.sav"
 			}
 		],
 		"memory_writes": [
