@@ -1,1 +1,5 @@
-PLACE_pipibibs_rbf_f_FILE_HERE
+{
+  name:     "PLACE_pipibibs_rbf_f_FILE_HERE",
+  file:     "Spipibibs.rbf_r",
+  location: "https://github.com/Coin-OpCollection/Distribution-OpenFPGA/blob/develop/Dist/Cores/atrac17.pipibibs/pipibibs.rbf_r"
+}
