@@ -1,5 +1,1 @@
-{
-  name:     "PLACE_GAREGGA_rbf_r_FILE_HERE",
-  file:     "GAREGGA.rbf_r",
-  location: "https://github.com/Coin-OpCollection/Distribution-OpenFPGA/blob/develop/Dist/Cores/pram0d.garegga/GAREGGA.rbf_r"
-}
+https://raw.githubusercontent.com/Coin-OpCollection/Distribution-OpenFPGA/develop/Dist/Cores/pram0d.garegga/GAREGGA.rbf_r

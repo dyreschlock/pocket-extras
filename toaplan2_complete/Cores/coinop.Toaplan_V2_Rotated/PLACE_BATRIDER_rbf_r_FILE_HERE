@@ -1,5 +1,1 @@
-{
-  name:     "PLACE_BATRIDER_rbf_r_FILE_HERE",
-  file:     "BATRIDER.rbf_r",
-  location: "https://github.com/Coin-OpCollection/Distribution-OpenFPGA/blob/develop/Dist/Cores/pram0d.batrider/BATRIDER.rbf_r"
-}
+https://raw.githubusercontent.com/Coin-OpCollection/Distribution-OpenFPGA/develop/Dist/Cores/pram0d.batrider/BATRIDER.rbf_r
