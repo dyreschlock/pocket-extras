@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "4 Homebrew/Hex v1.1 (PD) BinaryStar.bin"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/Hex_Trex.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

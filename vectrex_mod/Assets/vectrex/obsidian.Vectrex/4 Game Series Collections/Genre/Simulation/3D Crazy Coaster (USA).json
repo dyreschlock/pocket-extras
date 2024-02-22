@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "4 Game Series Collections/Genre/Simulation/3D Crazy Coaster (USA).vec"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/3D Crazy Coaster.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "4 Homebrew/Where Have All The Pixels Gone (PD) v184 Carnegie Mellon Computer Club.bin"
+      },
+      {
+        "id": 2,
+        "filename": "Blank_Overlay.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

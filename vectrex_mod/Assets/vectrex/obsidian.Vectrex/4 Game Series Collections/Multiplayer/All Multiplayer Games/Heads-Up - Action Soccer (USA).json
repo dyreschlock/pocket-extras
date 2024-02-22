@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "4 Game Series Collections/Multiplayer/All Multiplayer Games/Heads-Up - Action Soccer (USA).vec"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/Heads-Up_Action_Soccer.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

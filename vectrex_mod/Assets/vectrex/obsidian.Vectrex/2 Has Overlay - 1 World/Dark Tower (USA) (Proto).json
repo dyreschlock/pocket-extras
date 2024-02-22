@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "1 World - A-Z/Dark Tower (USA) (Proto).vec"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/Dark_Tower_Proto.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "4 Homebrew/Nona3 by Manu (Mar 10) (2003).vec"
+      },
+      {
+        "id": 2,
+        "filename": "Blank_Overlay.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}
