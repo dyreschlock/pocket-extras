@@ -1,0 +1,49 @@
+{
+    "interact": {
+        "magic": "APF_VER_1",
+        "variables": [
+            {
+                "name": "Persistence",
+                "id": 1,
+                "type": "slider_u32",
+                "enabled": true,
+                "persist": true,
+                "address": "0x80000000",
+                "writeonly": true,
+                "defaultval": 3,
+                "graphical": {
+                  "signed": false,
+                  "min": 1,
+                  "max": 15,
+                  "adjust_small": 1,
+                  "adjust_large": 1
+                }
+            },
+			{
+				"name": "Overburn",
+				"id": 2,
+				"type": "check",
+				"enabled": true,
+				"persist": true,
+                "writeonly": true,
+				"address": "0x90000000",
+				"defaultval": 1,
+				"value": 1,
+				"mask": "0xFFFFFFFE"
+			},
+            {
+				"name": "Show Overlay",
+				"id": 3,
+				"type": "check",
+				"enabled": true,
+				"persist": true,
+                "writeonly": true,
+				"address": "0xA0000000",
+				"defaultval": 1,
+				"value": 1,
+				"mask": "0xFFFFFFFE"
+			}            
+        ],
+        "messages": []
+    }
+}

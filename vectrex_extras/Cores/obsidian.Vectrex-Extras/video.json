@@ -1,0 +1,51 @@
+{
+    "video": {
+        "magic": "APF_VER_1",
+        "scaler_modes": [
+            {
+                "width": 540,
+                "height": 719,
+                "aspect_w": 3,
+                "aspect_h": 4,
+                "rotation": 0,
+                "mirror": 0
+            }
+        ],
+    "display_modes": [
+      {
+        "id": "0x10"
+      },
+      {
+        "id": "0x20"
+      },
+      {
+        "id": "0x30"
+      },
+      {
+        "id": "0x31"
+      },
+      {
+        "id": "0x32"
+      },
+      {
+        "id": "0x40"
+      },
+      {
+        "id": "0x41"
+      },
+      {
+        "id": "0x42"
+      },
+      {
+        "id": "0x51"
+      },
+      {
+        "id": "0x52"
+      },
+      {
+        "id": "0xE0"
+      }
+    ]
+
+    }
+}

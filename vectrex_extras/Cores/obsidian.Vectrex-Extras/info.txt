@@ -1,0 +1,2 @@
+GCE Vectrex released in 1982.
+Port of the original core by Dar.
