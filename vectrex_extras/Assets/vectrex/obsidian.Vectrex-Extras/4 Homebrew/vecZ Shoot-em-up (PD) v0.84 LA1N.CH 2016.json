@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "4 Homebrew/vecZ Shoot-em-up (PD) v0.84 LA1N.CH 2016.BIN"
+      },
+      {
+        "id": 2,
+        "filename": "Blank_Overlay.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}
