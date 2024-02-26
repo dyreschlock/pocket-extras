@@ -1,0 +1,39 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "3 Vectrex Academy/Academy 2019/Fencing Simulator_by Alberich.bin"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/academy/FencingSimulator.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "3 Vectrex Academy/Academy 2019/Fencing Simulator_by Alberich.bin"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/academy/FencingSimulator.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

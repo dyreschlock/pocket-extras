@@ -1,0 +1,39 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "3 Vectrex Academy/Academy 2019/Vectroid_by NATE__66.bin"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/academy/Vectroid.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "3 Vectrex Academy/Academy 2019/Vectroid_by NATE__66.bin"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/academy/Vectroid.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}
