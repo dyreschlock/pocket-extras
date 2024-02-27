@@ -7,6 +7,7 @@ Additionally, I've added a combination core that collects all of the games from 
 Current extras and edits are collected into the following 3 categories:
 - <b>Jotego Extras</b>
 - <b>Donkey Kong Extras</b>
+- <b>Vectrex Extras</b>
 - <b>Toaplan V2 Combination Core</b>
 
 ## Jotego Extras
@@ -53,6 +54,21 @@ Additionally, all of these will run on the RadarScope core, so I made the same e
 Thanks to <b><a href="https://github.com/GoldZabu">GoldZabu</a></b> for all the dkhacks.net Hacks! :)
 
 For instructions building the dkhacks.net Hacks, <a href="/dk_extras/Assets/donkeykong/mra/donkeykonghacks.net/README.md">look here</a>.
+
+## Vectrex Extras
+
+![Vectrex](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/home/vectrex.png?raw=true)
+
+The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev">Oblivion</a>, and has support for overlays. For the 0.9.0 version, upon opening the core, you're asking to choose a Game ROM and choose an Overlay. However, switching between games is cumbersome as you must change the game and then change the overlay in a two-step process. For multi-file rom-based setups, devs have been using JSON files to describe what it needed so you only need to choose the JSON file and be ready to go.
+
+Vectrex Extras is a collection of JSON files based on a particular rom-pack. Vectrex Extras changes v0.9.0 of the Vectrex core to accept JSON files. Additionally, Vectrex Extras is set up as a new core implementation of Vectrex, so if the Vectrex core is changed to accept JSON files in the future, it doesn't conflict.
+
+<b>**Note</b>: The distribution does not contain the actual RBF core flie. Please source it yourself from Obsidian's distribution.
+
+<b>**Note 2</b>: The particular rom-pack for Vectrex Extras can be found on Archive.org.  Just search for <b><a href="https://archive.org/search?query=openfpga+vectrex+extras">openfpga vectrex extras</a></b>.
+
+Please read full instructions: <b><a href="/vectrex-extras/README.md">here</a></b>
+
 
 ## Toaplan Version 2 Hardware combo-core
 
