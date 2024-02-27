@@ -67,7 +67,7 @@ Vectrex Extras is a collection of JSON files based on a particular rom-pack. Vec
 
 <b>**Note 2</b>: The particular rom-pack for Vectrex Extras can be found on Archive.org.  Just search for <b><a href="https://archive.org/search?query=openfpga+vectrex+extras">openfpga vectrex extras</a></b>.
 
-Please read full instructions: <b><a href="/vectrex-extras/README.md">here</a></b>
+Please read full instructions: <b><a href="/vectrex_extras/README.md">here</a></b>
 
 
 ## Toaplan Version 2 Hardware combo-core

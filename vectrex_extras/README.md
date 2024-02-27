@@ -27,7 +27,7 @@ All of the JSON files are set up using a particular rom-pack. Originally, this w
 - (3) Vectrex Academy Student Works
 - (4) More Homebrew and Hacks
 
-You can find the updated ROM on Archive.org.  Just search for <b><a href="https://archive.org/search?query=openfpga+vectrex+extras">openfpga vectrex extras</a></b>.
+You can find the updated rom-pack on Archive.org.  Just search for <b><a href="https://archive.org/search?query=openfpga+vectrex+extras">openfpga vectrex extras</a></b>.
 
 ## Pocket-Sync Fetch - Archive.org
 
