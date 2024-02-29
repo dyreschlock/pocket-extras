@@ -17,23 +17,4 @@
     ],
     "memory_writes": []
   }
-}{
-  "instance": {
-    "magic": "APF_VER_1",
-    "variant_select": {
-      "id": 777,
-      "select": false
-    },
-    "data_slots": [
-      {
-        "id": 1,
-        "filename": "3 Vectrex Academy/Academy 2022/Grain Sling_by Kiddo.bin"
-      },
-      {
-        "id": 2,
-        "filename": "overlays/academy/GrainSling.ovr"
-      }
-    ],
-    "memory_writes": []
-  }
 }

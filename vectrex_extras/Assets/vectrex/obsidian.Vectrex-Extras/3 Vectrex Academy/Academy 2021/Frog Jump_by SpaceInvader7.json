@@ -17,23 +17,4 @@
     ],
     "memory_writes": []
   }
-}{
-  "instance": {
-    "magic": "APF_VER_1",
-    "variant_select": {
-      "id": 777,
-      "select": false
-    },
-    "data_slots": [
-      {
-        "id": 1,
-        "filename": "3 Vectrex Academy/Academy 2021/Frog Jump_by SpaceInvader7.bin"
-      },
-      {
-        "id": 2,
-        "filename": "overlays/academy/FrogJump.ovr"
-      }
-    ],
-    "memory_writes": []
-  }
 }

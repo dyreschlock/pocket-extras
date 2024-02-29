@@ -8,11 +8,11 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "3 Vectrex Academy/Academy 2023/Freeride_by the_last_bitbender.bin"
+        "filename": "3 Vectrex Academy/Academy 2022/The Count_by Peer Johannsen_Beta RC 1-0.bin"
       },
       {
         "id": 2,
-        "filename": "overlays/academy/freeride.ovr"
+        "filename": "overlays/academy/TheCount.ovr"
       }
     ],
     "memory_writes": []

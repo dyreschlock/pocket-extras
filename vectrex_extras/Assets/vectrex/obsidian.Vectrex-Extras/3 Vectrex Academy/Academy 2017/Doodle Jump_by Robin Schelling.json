@@ -8,11 +8,11 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "3 Vectrex Academy/Academy 2023/Freeride_by the_last_bitbender.bin"
+        "filename": "3 Vectrex Academy/Academy 2017/Doodle Jump_by Robin Schelling.bin"
       },
       {
         "id": 2,
-        "filename": "overlays/academy/freeride.ovr"
+        "filename": "overlays/academy/DoodleJump.ovr"
       }
     ],
     "memory_writes": []
