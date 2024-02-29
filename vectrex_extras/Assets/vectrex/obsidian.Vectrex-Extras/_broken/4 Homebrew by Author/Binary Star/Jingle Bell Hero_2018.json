@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "_broken/4 Homebrew by Author/Binary Star/Jingle Bell Hero_2018.bin"
+      },
+      {
+        "id": 2,
+        "filename": "Blank_Overlay.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

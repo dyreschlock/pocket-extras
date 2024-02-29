@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "_broken/1 World - A-Z/3D Mine Storm (USA).vec"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/3D Mine Storm.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}

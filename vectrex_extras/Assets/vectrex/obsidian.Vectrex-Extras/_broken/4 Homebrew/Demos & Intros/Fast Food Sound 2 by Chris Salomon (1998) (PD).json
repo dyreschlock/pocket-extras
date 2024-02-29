@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "_broken/4 Homebrew/Demos & Intros/Fast Food Sound 2 by Chris Salomon (1998) (PD).vec"
+      },
+      {
+        "id": 2,
+        "filename": "Blank_Overlay.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}
