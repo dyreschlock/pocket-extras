@@ -26,7 +26,7 @@ All of the JSON files are set up using a particular rom-pack. Originally, this w
 - (3) Vectrex Academy Student Works
 - (4) Homebrew by Author
 
-The Vectrex Academy games are from a software development course in game focusing a game programming using C++. The 'Homebrew by Author' category is more than an organization of the Homebrew folder. It contains all games from each author up through 2023, which is more complete than the Homebrew folder.
+The Vectrex Academy games are from a software development course in Germany focusing on game programming using C++. The 'Homebrew by Author' category is more than an organization of the Homebrew folder. It contains all games from each author up through 2023, which is more complete than the Homebrew folder.
 
 You can find the updated rom-pack on Archive.org.  Just search for <b><a href="https://archive.org/search?query=openfpga+vectrex+extras">openfpga vectrex extras</a></b>.
 
