@@ -17,14 +17,16 @@ To install, copy all of the vectrex-extras.zip contents to your SD card. Again, 
 The distribution does not contain the actual RBF core flie. Please source it yourself from Obsidian's distribution.
 
 Place the RBF file in the core folder, here:
-- /Cores/obsidian.Vectrex/
+- /Cores/obsidian.Vectrex-Extras/
 
 ## Set-up Note #2
 
 All of the JSON files are set up using a particular rom-pack. Originally, this was meant to be the HTGDB pack, but it's slightly out of date. There are more games to play, and a few other things, too. The HTGDB pack will still work, but I added two more folders:
 
 - (3) Vectrex Academy Student Works
-- (4) More Homebrew and Hacks
+- (4) Homebrew by Author
+
+The Vectrex Academy games are from a software development course in game focusing a game programming using C++. The 'Homebrew by Author' category is more than an organization of the Homebrew folder. It contains all games from each author up through 2023, which is more complete than the Homebrew folder.
 
 You can find the updated rom-pack on Archive.org.  Just search for <b><a href="https://archive.org/search?query=openfpga+vectrex+extras">openfpga vectrex extras</a></b>.
 
