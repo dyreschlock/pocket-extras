@@ -8,11 +8,11 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "_broken/4 Homebrew by Author/Binary Star/Upsidedown_2016.bin"
+        "filename": "4 Homebrew by Author/Binary Star/Mine Storm_II ButtonsHack1 2019.bin"
       },
       {
         "id": 2,
-        "filename": "Blank_Overlay.ovr"
+        "filename": "overlays/Mine_Storm.ovr"
       }
     ],
     "memory_writes": []

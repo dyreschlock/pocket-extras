@@ -8,11 +8,11 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "_broken/4 Homebrew by Author/John Dondzila/Vector Vaders Remix (1999).bin"
+        "filename": "4 Homebrew by Author/Garry Grierson/Vec Wars Retro Devolved_2009.bin"
       },
       {
         "id": 2,
-        "filename": "overlays/Vaders.ovr"
+        "filename": "Blank_Overlay.ovr"
       }
     ],
     "memory_writes": []

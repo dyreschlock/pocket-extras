@@ -8,11 +8,11 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "_broken/4 Homebrew by Author/Binary Star/Ghostbusters II_Music 2018.bin"
+        "filename": "4 Homebrew by Author/Binary Star/Patriots_Trackball 2017.bin"
       },
       {
         "id": 2,
-        "filename": "Blank_Overlay.ovr"
+        "filename": "overlays/Patriots.ovr"
       }
     ],
     "memory_writes": []
