@@ -59,9 +59,9 @@ For instructions building the dkhacks.net Hacks, <a href="/dk_extras/Assets/donk
 
 ![Vectrex](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/home/vectrex.png?raw=true)
 
-The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev">Oblivion</a>, and has support for overlays. For the 0.9.0 version, upon opening the core, you're asking to choose a Game ROM and choose an Overlay. However, switching between games is cumbersome as you must change the game and then change the overlay in a two-step process. For multi-file rom-based setups, devs have been using JSON files to describe what it needed so you only need to choose the JSON file and be ready to go.
+The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev">Oblivion</a>. In version 0.9.1, when you execute the core, you choose a JSON file that corresponds to a ROM and an Overlay. The base implementation only includes JSON files for the official release set of 29ish games.
 
-Vectrex Extras is a collection of JSON files based on a particular rom-pack. Vectrex Extras changes v0.9.0 of the Vectrex core to accept JSON files. Additionally, Vectrex Extras is set up as a new core implementation of Vectrex, so if the Vectrex core is changed to accept JSON files in the future, it doesn't conflict.
+Vectrex Extras is a collection of JSON files based on a particular rom-pack that includes Homebrew games, Hacks, and much more. It's set up as a new core implementation of Vectrex so the new JSON files do not conflict with the JSON files in v0.9.1 of the Vectrex core.
 
 <b>**Note</b>: The distribution does not contain the actual RBF core flie. Please source it yourself from Obsidian's distribution.
 
