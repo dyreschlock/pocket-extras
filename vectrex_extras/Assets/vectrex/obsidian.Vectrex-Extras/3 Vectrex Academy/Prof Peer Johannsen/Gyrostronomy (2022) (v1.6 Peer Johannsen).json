@@ -1,0 +1,20 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "variant_select": {
+      "id": 777,
+      "select": false
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "3 Vectrex Academy/Prof Peer Johannsen/Gyrostronomy (2022) (v1.6 Peer Johannsen).bin"
+      },
+      {
+        "id": 2,
+        "filename": "overlays/Gyrostronomy.ovr"
+      }
+    ],
+    "memory_writes": []
+  }
+}
