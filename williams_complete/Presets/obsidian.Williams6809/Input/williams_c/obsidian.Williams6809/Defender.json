@@ -1,0 +1,37 @@
+{
+	"input":{
+		"magic": "APF_VER_1",
+		"controllers": [
+			{
+				"type": "default",
+				"mappings": [
+					{
+						"id": 0,
+						"name": "Fire",
+						"key": "pad_btn_a"
+					},
+					{
+						"id": 1,
+						"name": "Smart Bomb",
+						"key": "pad_btn_b"
+					},
+					{
+						"id": 2,
+						"name": "Hyperspace",
+						"key": "pad_btn_y"
+					},
+					{
+						"id": 3,
+						"name": "Reverse",
+						"key": "pad_trig_l"
+					},
+					{
+						"id": 4,
+						"name": "Thrust",
+						"key": "pad_trig_r"
+					}
+				]
+			}
+		]
+	}
+}

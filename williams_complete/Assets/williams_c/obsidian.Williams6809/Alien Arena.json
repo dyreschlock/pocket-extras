@@ -1,0 +1,22 @@
+{
+	"instance":{
+		"magic": "APF_VER_1",
+		"core_select": {
+			"id": 1,
+			"select": true
+		},
+		"data_path": "",
+		"data_slots": [
+			{
+				"id": 1,
+				"filename": "alienaru.rom"
+			}
+		],
+		"memory_writes": [
+			{
+				"address": "0x80000000",
+				"data": "0x7"
+			}
+		]
+	}
+}

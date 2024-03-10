@@ -1,0 +1,12 @@
+{
+	"input":{
+		"magic": "APF_VER_1",
+		"controllers": [
+			{
+				"type": "default",
+				"mappings": [						
+				]
+			}
+		]
+	}
+}

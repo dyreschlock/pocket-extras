@@ -1,0 +1,22 @@
+{
+	"input":{
+		"magic": "APF_VER_1",
+		"controllers": [
+			{
+				"type": "default",
+				"mappings": [
+					{
+						"id": 0,
+						"name": "Fast",
+						"key": "pad_btn_b"
+					},
+					{
+						"id": 1,
+						"name": "Slow",
+						"key": "pad_btn_a"
+					}
+				]
+			}
+		]
+	}
+}

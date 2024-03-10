@@ -1,0 +1,39 @@
+{
+    "core": {
+        "magic": "APF_VER_1",
+        "metadata": {
+            "platform_ids": ["williams_c"],
+            "shortname": "Williams6809",
+            "description": "Williams 6809 HW Rev 1a",
+            "author": "obsidian",
+            "url": "https://github.com/obsidian-dot-dev/openFPGA-Defender",
+            "version": "0.9.2",
+            "date_release": "2024-03-09"
+        },
+        "framework": {
+            "target_product": "Analogue Pocket",
+            "version_required": "1.1",
+            "sleep_supported": false,
+            "dock": {
+                "supported": true,
+                "analog_output": false
+            },
+            "hardware": {
+                "link_port": false,
+                "cartridge_adapter": -1
+            }
+        },
+        "cores": [
+            {
+                "name": "defender",
+                "id": 0,
+                "filename": "defender.rbf_r"
+            },
+            {
+                "name": "robotron",
+                "id": 1,
+                "filename": "robotron.rbf_r"
+            }
+        ]
+    }
+}
