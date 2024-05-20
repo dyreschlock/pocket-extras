@@ -46,31 +46,39 @@
           },
           {
               "value":"65536",
-              "name":"Asia"
-          },
-          {
-              "value":"131072",
-              "name":"Hong Kong (Honest Trading)"
-          },
-          {
-              "value":"196608",
-              "name":"Taiwan"
-          },
-          {
-              "value":"262144",
               "name":"USA"
           },
           {
-              "value":"327680",
-              "name":"USA (Romstar)"
-          },
-          {
-              "value":"393216",
+              "value":"131072",
               "name":"Europe"
           },
           {
+              "value":"196608",
+              "name":"Hong Kong"
+          },
+          {
+              "value":"262144",
+              "name":"Korea"
+          },
+          {
+              "value":"327680",
+              "name":"Taiwan"
+          },
+          {
+              "value":"393216",
+              "name":"Taiwan (Spacy Co., Ltd.)"
+          },
+          {
               "value":"458752",
-              "name":"Europe (Nova Apparate GMBH & Co.)"
+              "name":"USA (Romstar)"
+          },
+          {
+              "value":"524288",
+              "name":"Hong Kong (Honest Trading)"
+          },
+          {
+              "value":"983040",
+              "name":"Japan (Distributed by Tecmo)"
           }
         ]
       },
@@ -131,64 +139,8 @@
         ]
       },
       {
-        "name": "Extend Player",
+        "name": "Stop Mode",
         "id": 6,
-        "type": "list",
-        "enabled": true,
-        "persist": true,
-        "address": "0xFA000000",
-        "mask": "0xFFFFF3FF",
-        "defaultval": 0,
-        "options": [
-          {
-            "value": 0,
-            "name": "200k/300k"
-          },
-          {
-            "value": 1024,
-            "name": "150k/200k"
-          },
-          {
-            "value": 2048,
-            "name": "200k"
-          },
-          {
-            "value": 3072,
-            "name": "None"
-          }
-        ]
-      },
-      {
-        "name": "Hero Counts",
-        "id": 7,
-        "type": "list",
-        "enabled": true,
-        "persist": true,
-        "address": "0xFA000000",
-        "mask": "0xFFFFCFFF",
-        "defaultval": 0,
-        "options": [
-          {
-            "value": 0,
-            "name": "3"
-          },
-          {
-            "value": 4096,
-            "name": "5"
-          },
-          {
-            "value": 8192,
-            "name": "4"
-          },
-          {
-            "value": 12288,
-            "name": "2"
-          }
-        ]
-      },
-      {
-        "name": "Invulnerability",
-        "id": 8,
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -203,26 +155,6 @@
           {
               "value":"0x4000",
               "name":"On"
-          }
-        ]
-      },
-      {
-        "name": "Nudity",
-        "id": 9,
-        "type": "list",
-        "enabled": true,
-        "persist": true,
-        "address": "0xFA000000",
-        "mask": "0xFFF7FFFF",
-        "defaultval": 0,
-        "options":[
-          {
-              "value":"0x0",
-              "name":"High (Censored)"
-          },
-          {
-              "value":"0x80000",
-              "name":"Low"
           }
         ]
       },

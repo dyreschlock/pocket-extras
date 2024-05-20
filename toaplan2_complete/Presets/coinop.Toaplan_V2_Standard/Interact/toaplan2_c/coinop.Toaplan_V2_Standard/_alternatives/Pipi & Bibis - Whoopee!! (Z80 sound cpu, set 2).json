@@ -3,30 +3,108 @@
     "magic": "APF_VER_1",
     "variables": [
       {
-        "name": "Test Mode",
+        "id": 0,
+        "name": "----------------",
+        "type": "action",
+        "enabled": false,
+        "address": "0xF0000000",
+        "value": 0
+      },
+      {
+        "name": "Service Mode",
         "id": 2,
-        "type": "check",
+        "type": "list",
         "enabled": true,
         "persist": true,
         "address": "0xFA000000",
         "mask": "0xFFFFFFFB",
         "defaultval": 0,
-        "value": "0x4"
+        "options":[
+          {
+              "value":"0x0",
+              "name":"Normal Mode"
+          },
+          {
+              "value":"0x4",
+              "name":"Test Mode"
+          }
+        ]
+      },
+      {
+        "name": "Region Select",
+        "id": 3,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFF0FFFF",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0",
+              "name":"Japan"
+          },
+          {
+              "value":"65536",
+              "name":"Asia"
+          },
+          {
+              "value":"131072",
+              "name":"Hong Kong (Honest Trading)"
+          },
+          {
+              "value":"196608",
+              "name":"Taiwan"
+          },
+          {
+              "value":"262144",
+              "name":"USA"
+          },
+          {
+              "value":"327680",
+              "name":"USA (Romstar)"
+          },
+          {
+              "value":"393216",
+              "name":"Europe"
+          },
+          {
+              "value":"458752",
+              "name":"Europe (Nova Apparate GMBH & Co.)"
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "name": "----------------",
+        "type": "action",
+        "enabled": false,
+        "address": "0xF0000000",
+        "value": 0
       },
       {
         "name": "Advertise Sound",
-        "id": 3,
-        "type": "check",
+        "id": 4,
+        "type": "list",
         "enabled": true,
         "persist": true,
         "address": "0xFA000000",
         "mask": "0xFFFFFFF7",
         "defaultval": 0,
-        "value": "0x8"
+        "options":[
+          {
+              "value":"0x0",
+              "name":"On"
+          },
+          {
+              "value":"0x8",
+              "name":"Off"
+          }
+        ]
       },
       {
         "name": "Difficulty",
-        "id": 4,
+        "id": 5,
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -54,7 +132,7 @@
       },
       {
         "name": "Extend Player",
-        "id": 5,
+        "id": 6,
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -82,7 +160,7 @@
       },
       {
         "name": "Hero Counts",
-        "id": 6,
+        "id": 7,
         "type": "list",
         "enabled": true,
         "persist": true,
@@ -110,25 +188,51 @@
       },
       {
         "name": "Invulnerability",
-        "id": 7,
-        "type": "check",
+        "id": 8,
+        "type": "list",
         "enabled": true,
         "persist": true,
         "address": "0xFA000000",
         "mask": "0xFFFFBFFF",
         "defaultval": 0,
-        "value": "0x4000"
+        "options":[
+          {
+              "value":"0x0",
+              "name":"Off"
+          },
+          {
+              "value":"0x4000",
+              "name":"On"
+          }
+        ]
       },
       {
         "name": "Nudity",
-        "id": 8,
-        "type": "check",
+        "id": 9,
+        "type": "list",
         "enabled": true,
         "persist": true,
         "address": "0xFA000000",
         "mask": "0xFFF7FFFF",
         "defaultval": 0,
-        "value": "0x80000"
+        "options":[
+          {
+              "value":"0x0",
+              "name":"High (Censored)"
+          },
+          {
+              "value":"0x80000",
+              "name":"Low"
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "name": "----------------",
+        "type": "action",
+        "enabled": false,
+        "address": "0xF0000000",
+        "value": 0
       },
     ]
   }

@@ -7,43 +7,28 @@
         "mappings": [
           {
             "id": 0,
-            "name": "A",
+            "name": "Attack",
             "key": "pad_btn_a"
           },
           {
             "id": 1,
-            "name": "B",
-            "key": "pad_btn_b"
+            "name": "Coin",
+            "key": "pad_btn_select"
           },
           {
             "id": 2,
-            "name": "X",
-            "key": "pad_btn_x"
-          },
-          {
-            "id": 3,
-            "name": "Y",
-            "key": "pad_btn_y"
-          },
-          {
-            "id": 4,
-            "name": "L",
-            "key": "pad_trig_l"
-          },
-          {
-            "id": 5,
-            "name": "R",
-            "key": "pad_trig_r"
-          },
-          {
-            "id": 6,
             "name": "Start",
             "key": "pad_btn_start"
           },
           {
-            "id": 7,
-            "name": "Select",
-            "key": "pad_btn_select"
+            "id": 3,
+            "name": "Service Coin",
+            "key": "pad_trig_l"
+          },
+          {
+            "id": 4,
+            "name": "Pause",
+            "key": "pad_trig_r"
           }
         ]
       }

@@ -7,26 +7,31 @@
         "mappings": [
           {
             "id": 0,
-            "name": "Attack",
+            "name": "Rotate",
             "key": "pad_btn_a"
           },
           {
             "id": 1,
+            "name": "Rotate",
+            "key": "pad_btn_b"
+          },
+          {
+            "id": 2,
             "name": "Coin",
             "key": "pad_btn_select"
           },
           {
-            "id": 2,
+            "id": 3,
             "name": "Start",
             "key": "pad_btn_start"
           },
           {
-            "id": 3,
+            "id": 4,
             "name": "Service Coin",
             "key": "pad_trig_l"
           },
           {
-            "id": 4,
+            "id": 5,
             "name": "Pause",
             "key": "pad_trig_r"
           }
