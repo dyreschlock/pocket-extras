@@ -1,0 +1,42 @@
+{
+	"core":{
+		"magic": "APF_VER_1",
+		"metadata": {
+			"platform_ids": [
+				"jt1942_c",
+				"jtpatreon"
+			],
+			"shortname": "jt1942_c",
+			"description": "Arcade",
+			"author": "jotego",
+			"url": "https://patreon.com/jotego",
+			"version": "9c297dd",
+			"date_release": "2024-05-17"
+		},
+		"framework": {
+			"target_product": "Analogue Pocket",
+			"version_required": "1.1",
+			"sleep_supported": false,
+			"dock": {
+				"supported": true,
+				"analog_output": false
+			},
+			"hardware": {
+				"link_port": false,
+				"cartridge_adapter": -1
+			}
+		},
+		"cores": [
+			{
+				"name": "jt1942",
+				"id": 0,
+				"filename": "jt1942.rbf_r"
+			},
+			{
+				"name": "jt1943",
+				"id": 1,
+				"filename": "jt1943.rbf_r"
+			}
+		]
+	}
+}
