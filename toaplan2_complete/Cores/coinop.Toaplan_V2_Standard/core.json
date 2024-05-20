@@ -7,8 +7,8 @@
             "description": "Toaplan V2 Hardware (Standard)",
             "author": "coinop",
             "url": "https://github.com/Coin-OpCollection",
-            "version": "0.0.1",
-            "date_release": "2022-09-23"
+            "version": "0.0.2",
+            "date_release": "2024-05-20"
         },
         "framework": {
             "target_product": "Analogue Pocket",
