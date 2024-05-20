@@ -24,6 +24,9 @@ jobs:
       - name: Zip Folder
         run: cd vectrex_extras; zip -r pocket-extras-vectrex-${{ github.event.release.tag_name }}.zip .
 
+      - name: Zip Folder
+        run: cd jt1942_combo; zip -r pocket-extras-jt1942_c-${{ github.event.release.tag_name }}.zip .
+
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
@@ -33,5 +36,6 @@ jobs:
             ./jotego_extras/pocket-extras-jotego-${{ github.event.release.tag_name }}.zip
             ./toaplan2_complete/pocket-extras-toaplan2_c-${{ github.event.release.tag_name }}.zip
             ./vectrex_extras/pocket-extras-vectrex-${{ github.event.release.tag_name }}.zip
+            ./jt1942_combo/pocket-extras-jt1942_c-${{ github.event.release.tag_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
