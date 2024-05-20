@@ -1,0 +1,295 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 0,
+        "name": "----------------",
+        "type": "action",
+        "enabled": false,
+        "address": "0xF0000000",
+        "value": 0
+      },
+      {
+        "name": "Service Mode",
+        "id": 2,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFB",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0x0",
+              "name":"Normal Mode"
+          },
+          {
+              "value":"0x4",
+              "name":"Test Mode"
+          }
+        ]
+      },
+      {
+        "name": "Region Select",
+        "id": 3,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFF0FFFF",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0",
+              "name":"Japan"
+          },
+          {
+              "value":"65536",
+              "name":"USA"
+          },
+          {
+              "value":"131072",
+              "name":"Europe"
+          },
+          {
+              "value":"196608",
+              "name":"Hong Kong"
+          },
+          {
+              "value":"262144",
+              "name":"Korea"
+          },
+          {
+              "value":"327680",
+              "name":"Taiwan"
+          },
+          {
+              "value":"393216",
+              "name":"Southeast Asia"
+          },
+          {
+              "value":"458752",
+              "name":"USA (Romstar)"
+          },
+          {
+              "value":"524288",
+              "name":"Hong Kong (Honest Trading)"
+          },
+          {
+              "value":"589824",
+              "name":"Korea (JC Trading)"
+          },
+          {
+              "value":"655360",
+              "name":"USA (Fabtek)"
+          },
+          {
+              "value":"983040",
+              "name":"Japan (Taito Corp.)"
+          }
+        ]
+      },
+      {
+        "name": "Audio Mix",
+        "id": 4,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFEFFFFFF",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0x0",
+              "name":"Mono"
+          },
+          {
+              "value":"0x1000000",
+              "name":"Stereo"
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "name": "----------------",
+        "type": "action",
+        "enabled": false,
+        "address": "0xF0000000",
+        "value": 0
+      },
+      {
+        "name": "Rapid Fire",
+        "id": 5,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFFE",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0x0",
+              "name":"On"
+          },
+          {
+              "value":"0x1",
+              "name":"Off"
+          }
+        ]
+      },
+      {
+        "name": "Advertise Sound",
+        "id": 6,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFFF7",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0x0",
+              "name":"On"
+          },
+          {
+              "value":"0x8",
+              "name":"Off"
+          }
+        ]
+      },
+      {
+        "name": "Difficulty",
+        "id": 7,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFFCFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "Normal"
+          },
+          {
+            "value": 256,
+            "name": "Easy"
+          },
+          {
+            "value": 512,
+            "name": "Hard"
+          },
+          {
+            "value": 768,
+            "name": "Very Hard"
+          }
+        ]
+      },
+      {
+        "name": "Extend Player",
+        "id": 8,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFF3FF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "70k/200k"
+          },
+          {
+            "value": 1024,
+            "name": "100k/250k"
+          },
+          {
+            "value": 2048,
+            "name": "100k"
+          },
+          {
+            "value": 3072,
+            "name": "200k"
+          }
+        ]
+      },
+      {
+        "name": "Hero Counts",
+        "id": 9,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFCFFF",
+        "defaultval": 0,
+        "options": [
+          {
+            "value": 0,
+            "name": "3"
+          },
+          {
+            "value": 4096,
+            "name": "5"
+          },
+          {
+            "value": 8192,
+            "name": "4"
+          },
+          {
+            "value": 12288,
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "name": "Continue Play",
+        "id": 10,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFF7FFF",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0x0",
+              "name":"On"
+          },
+          {
+              "value":"0x8000",
+              "name":"Off"
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "id": 11,
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "address": "0xFA000000",
+        "mask": "0xFFFFBFFF",
+        "defaultval": 0,
+        "options":[
+          {
+              "value":"0x0",
+              "name":"Off"
+          },
+          {
+              "value":"0x4000",
+              "name":"On"
+          }
+        ]
+      },
+      {
+        "id": 0,
+        "name": "----------------",
+        "type": "action",
+        "enabled": false,
+        "address": "0xF0000000",
+        "value": 0
+      },
+    ]
+  }
+}
