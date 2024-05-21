@@ -3,10 +3,10 @@
 		"magic": "APF_VER_1",
 		"metadata": {
 			"platform_ids": [
-				"jt1942_c",
+				"jtcz80_c",
 				"jtpatreon"
 			],
-			"shortname": "jt1942_c",
+			"shortname": "jtcz80_c",
 			"description": "Arcade",
 			"author": "jotego",
 			"url": "https://patreon.com/jotego",
