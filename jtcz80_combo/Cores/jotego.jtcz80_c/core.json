@@ -36,6 +36,26 @@
 				"name": "jt1943",
 				"id": 1,
 				"filename": "jt1943.rbf_r"
+			},
+			{
+				"name": "jtbtiger",
+				"id": 2,
+				"filename": "jtbtiger.rbf_r"
+			},
+			{
+				"name": "jtcommnd",
+				"id": 3,
+				"filename": "jtcommnd.rbf_r"
+			},
+			{
+				"name": "jtexed",
+				"id": 4,
+				"filename": "jtexed.rbf_r"
+			},
+			{
+				"name": "jtgunsmk",
+				"id": 5,
+				"filename": "jtgunsmk.rbf_r"
 			}
 		]
 	}
