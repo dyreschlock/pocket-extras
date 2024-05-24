@@ -9,6 +9,7 @@ Current extras and edits are collected into the following 3 categories:
 - <b>Donkey Kong Extras</b>
 - <b>Vectrex Extras</b>
 - <b>Toaplan V2 Combination Core</b>
+- <b>Capcom Z80 Combination Core</b>
 
 ## Jotego Extras
 
@@ -70,7 +71,7 @@ Vectrex Extras is a collection of JSON files based on a particular rom-pack that
 Please read full instructions: <b><a href="/vectrex_extras/README.md">here</a></b>
 
 
-## Toaplan Version 2 Hardware combo-core
+## Toaplan Version 2 Hardware Combination Core
 
 ![Toaplan](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/arcade/toaplan2_c.png?raw=true)
 
@@ -85,6 +86,21 @@ I've taken all of these cores and combined them into a single Arcade Multi core.
 <b>**Note 2</b>: All JSON files are expecting the full set name rather than a truncated 8 character one. (Similar to Jotego's approach)
 
 Please read full instructions: <b><a href="/toaplan2_complete/README.md">here</a></b>
+
+
+## Capcom Z80 Combination Core
+
+![Capcom Z80](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/arcade/jtcz80_c.png?raw=true)
+
+In the mid-80s, Capcom used the Z80 cpu to power its Arcade games. This began with the arcade classic [b]1942[/b], and includes many others. <b><a href="https://www.patreon.com/jotego">Jotego</a></b> has implemented cores for all of these games, but they've all been released as separate cores with slightly different implementations. Many of them have the same resolution, so I have combined them into a single core.
+
+This combines the following cores: [b]1942[/b], [b]1943[/b], [b]Black Tiger[/b], [b]Commando[/b], [b]Exed Exes[/b], and [b]Gun.Smoke[/b]
+
+<b>**Note</b>: As usual, this distribution does not contain the actual RBF core files. Please source them from Jotego's repository.
+
+Please read full instructions: <b><a href="/jtcz80_combo/README.md">here</a></b>
+
+
 
 ## Final Note
 
