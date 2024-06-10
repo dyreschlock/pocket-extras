@@ -21,8 +21,10 @@ In order to play different games, you must switch the 'core' from the openFPGA m
 
 As usual, this distribution does not contain the actual RBF core files. Please download the cores from Jotego's repository, and copy the RBF files into the correct locations.
 
-Check inside the core folder for which files are required:
-- /Cores/jotego.jtcz80_c/
+Check inside the following core folders for which files are required:
+- /Cores/jotego.Capcom_Z80/
+- /Cores/jotego.Capcom_Z80_256x240/
+- /Cores/jotego.Capcom_Z80_384x224/
 
 ## Set-up Note #2
 
