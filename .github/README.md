@@ -94,7 +94,7 @@ Please read full instructions: <b><a href="/toaplan2_complete/README.md">here</a
 
 In the mid-80s, Capcom used the Z80 cpu to power its Arcade games. This began with the arcade classic <b>1942</b>, and includes many others. <b><a href="https://www.patreon.com/jotego">Jotego</a></b> has implemented cores for all of these games, but they've all been released as separate cores with slightly different implementations. Many of them have the same resolution, so I have combined them into a single core.
 
-This combines the following cores: <b>1942</b>, <b>1943</b>, <b>Black Tiger</b>, <b>Commando</b>, <b>Exed Exes</b>, and <b>Gun.Smoke</b>
+This combines the following cores: <b>1942</b>, <b>1943</b>, <b>Black Tiger</b>, <b>Commando</b>, <b>Exed Exes</b>, <b>Gun.Smoke</b>, <b>Section Z</b>, <b>Legendary Wings</b>, <b>Trojan</b>, and <b>Hyper Dyne Side Arms</b>
 
 <b>**Note</b>: As usual, this distribution does not contain the actual RBF core files. Please source them from Jotego's repository.
 
