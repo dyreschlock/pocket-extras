@@ -98,6 +98,8 @@ This combines the following cores: <b>1942</b>, <b>1943</b>, <b>Black Tiger</b>,
 
 <b>**Note</b>: As usual, this distribution does not contain the actual RBF core files. Please source them from Jotego's repository.
 
+<b>**Notes 2</b>: There are also several additional roms (including rom hacks) for <b>1942</b>, <b>1943</b>, and <b>Commando</b>.
+
 Please read full instructions: <b><a href="/jtcz80_combo/README.md">here</a></b>
 
 

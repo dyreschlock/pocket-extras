@@ -6,6 +6,8 @@ In the mid-80s, Capcom used the Z80 cpu to power its Arcade games. This began wi
 
 This combines the following cores: <b>1942</b>, <b>1943</b>, <b>Black Tiger</b>, <b>Commando</b>, <b>Exed Exes</b>, <b>Gun.Smoke</b>, <b>Section Z</b>, <b>Legendary Wings</b>, <b>Trojan</b>, and <b>Hyper Dyne Side Arms</b>
 
+Also included are some additional roms, including some rom hacks, for <b>1942</b>, <b>1943</b>, and <b>Commando</b>
+
 ## Usage Note
 
 When combining cores, each core must share the same resolution set up. Many of these games share the same set up, but some do not. Because of this, they are split among 3 different cores sharing the same `jtcz80_c` platform. The cores are split up as follows:
@@ -28,4 +30,6 @@ Check inside the following core folders for which files are required:
 
 ## Set-up Note #2
 
-I didn't include any MRA files. These cores are using the same roms as they would be normally, so just copy them from your other core folders, or use the updaters to get new copies.
+I did not include any of the standard MRA files, but I have included new MRA files for games not included in Jotego's current jtbin. These are primarily for <b>1942</b>, <b>1943</b>, and <b>Commando</b>. You can build these MRAs yourself, or the roms will be available through updaters.
+
+For all of the standard roms, these cores are using the same roms as they would be normally, so just copy them from your other core folders, or use the updaters to get new copies.
