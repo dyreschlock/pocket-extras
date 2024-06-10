@@ -1,0 +1,62 @@
+{
+	"core":{
+		"magic": "APF_VER_1",
+		"metadata": {
+			"platform_ids": [
+				"jtcz80_c",
+				"jtpatreon"
+			],
+			"shortname": "Capcom_Z80",
+			"description": "Arcade",
+			"author": "jotego",
+			"url": "https://patreon.com/jotego",
+			"version": "261a0ce",
+			"date_release": "2024-06-10"
+		},
+		"framework": {
+			"target_product": "Analogue Pocket",
+			"version_required": "1.1",
+			"sleep_supported": false,
+			"dock": {
+				"supported": true,
+				"analog_output": false
+			},
+			"hardware": {
+				"link_port": false,
+				"cartridge_adapter": -1
+			}
+		},
+		"cores": [
+			{
+				"name": "jt1942",
+				"id": 0,
+				"filename": "jt1942.rbf_r"
+			},
+			{
+				"name": "jt1943",
+				"id": 1,
+				"filename": "jt1943.rbf_r"
+			},
+			{
+				"name": "jtbtiger",
+				"id": 2,
+				"filename": "jtbtiger.rbf_r"
+			},
+			{
+				"name": "jtcommnd",
+				"id": 3,
+				"filename": "jtcommnd.rbf_r"
+			},
+			{
+				"name": "jtexed",
+				"id": 4,
+				"filename": "jtexed.rbf_r"
+			},
+			{
+				"name": "jtgunsmk",
+				"id": 5,
+				"filename": "jtgunsmk.rbf_r"
+			}
+		]
+	}
+}
