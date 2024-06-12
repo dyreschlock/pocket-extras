@@ -2,9 +2,9 @@
 
 This repository contains several extra files to get more out of some FPGA cores. The majority of these files are extra JSON and MRA for more games that currently run on released cores, but were not included in their releases for whatever reason. If any of this stuff gets added to those releases in the future, it'll be removed from here.
 
-Additionally, I've added a combination core that collects all of the games from the Toaplan Version 2 Hardware arcade board.
+Additionally, there are some combination cores which combine various released Arcade cores into a single Arcade Multi core. If you have every core installed on your Pocket, this should help reduce the volume of cores in the Arcade category.
 
-Current extras and edits are collected into the following 3 categories:
+Current extras and edits are collected into the following 5 releases:
 - <b>Jotego Extras</b>
 - <b>Donkey Kong Extras</b>
 - <b>Vectrex Extras</b>
