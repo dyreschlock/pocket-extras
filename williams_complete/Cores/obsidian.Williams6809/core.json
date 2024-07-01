@@ -4,11 +4,11 @@
         "metadata": {
             "platform_ids": ["williams_c"],
             "shortname": "Williams6809",
-            "description": "Williams 6809 HW Rev 1a",
+            "description": "Williams 6809 Hardware",
             "author": "obsidian",
             "url": "https://github.com/obsidian-dot-dev/openFPGA-Defender",
             "version": "0.9.2",
-            "date_release": "2024-03-09"
+            "date_release": "2024-07-01"
         },
         "framework": {
             "target_product": "Analogue Pocket",
@@ -33,6 +33,11 @@
                 "name": "robotron",
                 "id": 1,
                 "filename": "robotron.rbf_r"
+            },
+            {
+                "name": "joust2",
+                "id": 2,
+                "filename": "joust2.rbf_r"
             }
         ]
     }

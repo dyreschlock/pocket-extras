@@ -1,0 +1,32 @@
+{
+	"interact":{
+		"magic": "APF_VER_1",
+		"variables": [		
+			{
+				"name": "Diagonal Controls",
+				"id": 0,
+				"type": "check",
+				"enabled": true,
+				"persist": true,
+                "writeonly": true,
+				"address": "0x90000000",
+				"defaultval": 1,
+				"value": 1,
+				"mask": "0xFFFFFFFE"
+			},
+            {
+				"name": "Auto-fire on Aim",
+				"id": 1,
+				"type": "check",
+				"enabled": true,
+				"persist": true,
+                "writeonly": true,
+				"address": "0xA0000000",
+				"defaultval": 1,
+				"value": 1,
+				"mask": "0xFFFFFFFE"
+			}            
+		],
+		"messages": null
+	}
+}

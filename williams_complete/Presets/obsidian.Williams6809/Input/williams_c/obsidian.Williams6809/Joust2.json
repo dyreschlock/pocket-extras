@@ -1,0 +1,22 @@
+{
+	"input":{
+		"magic": "APF_VER_1",
+		"controllers": [
+			{
+				"type": "default",
+				"mappings": [
+					{
+						"id": 0,
+						"name": "Flap",
+						"key": "pad_btn_a"
+					},
+					{
+						"id": 1,
+						"name" : "Transform",
+						"key": "pad_btn_b"
+					}	
+				]
+			}
+		]
+	}
+}
