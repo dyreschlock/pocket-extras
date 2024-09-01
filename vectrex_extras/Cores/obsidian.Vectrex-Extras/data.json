@@ -10,7 +10,16 @@
         "extensions": ["json"]
       },
       {
-        "name": "Game ROM",
+        "name": "BIOS",
+        "id": 3,
+        "required": true,
+        "parameters": "0",
+        "filename": "vectrex.bin",
+        "size_exact": 8192,
+        "address": "0x00010000"
+      },
+      {
+        "name": "Game",
         "id": 1,
         "required": true,
         "parameters": "0x109",
@@ -20,7 +29,7 @@
       {
         "name": "Overlay",
         "id": 2,
-        "required": true,
+        "required": false,
         "parameters": "0x109",
         "extensions": ["ovr"],
         "address": "0x01000000"
