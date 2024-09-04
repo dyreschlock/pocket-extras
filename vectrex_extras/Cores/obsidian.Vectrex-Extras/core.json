@@ -7,8 +7,8 @@
             "description": "GCE Vectrex",
             "author": "obsidian",
             "url": "https://github.com/obsidian-dot-dev/openFPGA-Vectrex",
-            "version": "0.9.1",
-            "date_release": "2024-02-27"
+            "version": "0.9.4",
+            "date_release": "2024-09-05"
         },
         "framework": {
             "target_product": "Analogue Pocket",
