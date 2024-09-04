@@ -25,6 +25,7 @@ There are some extra MRA files, other games and hacks floating around out there 
 
 - Dokaben 2 for JTpang
 - Bubble Bobble Ultra for JTbubl (instructions <a href="/jotego_extras/Assets/jtbubl/mra/README.md">here</a>)
+- Puzzle Club for JTshouse (thanks to <a href="https://github.com/terminator2k2">terminator2k2</a>)
 
 ## Note
 
