@@ -8,11 +8,11 @@
     "data_slots": [
       {
         "id": 1,
-        "filename": "_broken/4 Homebrew by Author/Maiban/Vectorblade_v103 (2020).bin"
+        "filename": "_broken/4 Homebrew by Author/Malban/Labyrinth Rev 2 (1998).bin"
       },
       {
         "id": 2,
-        "filename": "overlays/more/Vectorblade.ovr"
+        "filename": "Blank_Overlay.ovr"
       }
     ],
     "memory_writes": []
