@@ -27,6 +27,9 @@ jobs:
       - name: Zip Folder
         run: cd jtcz80_combo; zip -r pocket-extras-jtcz80_c-${{ github.event.release.tag_name }}.zip .
 
+      - name: Zip Folder
+        run: cd williams_complete; zip -r pocket-extras-williams_c-${{ github.event.release.tag_name }}.zip .
+
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
@@ -37,5 +40,6 @@ jobs:
             ./toaplan2_complete/pocket-extras-toaplan2_c-${{ github.event.release.tag_name }}.zip
             ./vectrex_extras/pocket-extras-vectrex-${{ github.event.release.tag_name }}.zip
             ./jtcz80_combo/pocket-extras-jtcz80_c-${{ github.event.release.tag_name }}.zip
+            ./williams_complete/pocket-extras-williams_c-${{ github.event.release.tag_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

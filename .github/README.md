@@ -10,6 +10,7 @@ Current extras and edits are collected into the following 5 releases:
 - <b>Vectrex Extras</b>
 - <b>Toaplan V2 Combination Core</b>
 - <b>Capcom Z80 Combination Core</b>
+- <b>Williams 6809 Combination Core</b>
 
 ## Jotego Extras
 
@@ -61,7 +62,7 @@ For instructions building the dkhacks.net Hacks, <a href="/dk_extras/Assets/donk
 
 ![Vectrex](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/home/vectrex.png?raw=true)
 
-The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev">Oblivion</a>. In version 0.9.1, when you execute the core, you choose a JSON file that corresponds to a ROM and an Overlay. The base implementation only includes JSON files for the official release set of 29ish games.
+The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev"><b>Obsidian</b></a>. The base implementation only includes JSON files for the official release set of 29ish games.
 
 Vectrex Extras is a collection of JSON files based on a particular rom-pack that includes Homebrew games, Hacks, and much more. It's set up as a new core implementation of Vectrex so the new JSON files do not conflict with the JSON files in v0.9.1 of the Vectrex core.
 
@@ -103,6 +104,18 @@ This combines the following cores: <b>1942</b>, <b>1943</b>, <b>Black Tiger</b>,
 
 Please read full instructions: <b><a href="/jtcz80_combo/README.md">here</a></b>
 
+
+## Williams 6809 Combination Core
+
+![Williams 6809](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/arcade/williams_c.png?raw=true)
+
+<b>Robotron</b>, <b>Joust</b>, and <b>Defender</b> are some of the memorable and classic of arcade games. These were all developed by Williams Electronics in the early 80s using the 6809 cpu. <a href="https://github.com/obsidian-dot-dev"><b>Obsidian</b></a> recently brought these FPGA implementations to the Pocket. There are 3 different cores covering the slightly different chipsets. These cores have been collected into a single combination core.
+
+<b>**Note</b>: As usual, this distribution doesn't contain the RBF core files. Please source them from Obsidian's repositories.
+
+<b>**Note 2</b>: Alternate versions and Rom hacks have been included when available.
+
+Please read the full instructions: <b><a href="/williams_complete/README.md">here</a></b>
 
 
 ## Final Note
