@@ -109,7 +109,7 @@ Please read full instructions: <b><a href="/jtcz80_combo/README.md">here</a></b>
 
 ![Williams 6809](https://github.com/dyreschlock/pocket-platform-images/blob/main/pics/arcade/williams_c.png?raw=true)
 
-<b>Robotron</b>, <b>Joust</b>, and <b>Defender</b> are some of the memorable and classic of arcade games. These were all developed by Williams Electronics in the early 80s using the 6809 cpu. <a href="https://github.com/obsidian-dot-dev"><b>Obsidian</b></a> recently brought these FPGA implementations to the Pocket. There are 3 different cores covering the slightly different chipsets. These cores have been collected into a single combination core.
+<b>Robotron</b>, <b>Joust</b>, and <b>Defender</b> are some of the most memorable and classic of arcade games. These were all developed by Williams Electronics in the early 80s using the 6809 cpu. <a href="https://github.com/obsidian-dot-dev"><b>Obsidian</b></a> recently brought these FPGA implementations to the Pocket. There are 3 different cores covering the slightly different chipsets. These cores have been collected into a single combination core.
 
 <b>**Note</b>: As usual, this distribution doesn't contain the RBF core files. Please source them from Obsidian's repositories.
 
