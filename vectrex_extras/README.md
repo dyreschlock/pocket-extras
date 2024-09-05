@@ -4,7 +4,7 @@
 
 The Vectrex is a unique system that is stand alone from a TV. All graphics are vector-based, and you can add a transparent overlay on the screen to show some color, graphics, and instruction.
 
-The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev">Oblivion</a>. In version 0.9.1, when you execute the core, you choose a JSON file that corresponds to a ROM and an Overlay. The base implementation only includes JSON files for the official release set of 29ish games.
+The Vectrex core was created by <a href="https://github.com/obsidian-dot-dev"><b>Obsidian</b></a>. The base implementation only includes JSON files for the official release set of 29ish games.
 
 Vectrex Extras is a collection of JSON files based on a particular rom-pack that includes Homebrew games, Hacks, and much more. It's set up as a new core implementation of Vectrex so the new JSON files do not conflict with the JSON files in v0.9.1 of the Vectrex core.
 
