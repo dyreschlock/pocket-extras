@@ -6,9 +6,9 @@
             "shortname": "Williams6809",
             "description": "Williams 6809 Hardware",
             "author": "obsidian",
-            "url": "https://github.com/obsidian-dot-dev/openFPGA-Defender",
+            "url": "https://github.com/dyreschlock/pocket-extras",
             "version": "0.9.2",
-            "date_release": "2024-07-01"
+            "date_release": "2024-09-05"
         },
         "framework": {
             "target_product": "Analogue Pocket",
