@@ -56,7 +56,7 @@
 				]
 			},
 			{
-				"name": "Coin A",
+				"name": "Coin B",
 				"id": 3,
 				"type": "list",
 				"enabled": true,
@@ -85,7 +85,7 @@
 				]
 			},
 			{
-				"name": "Coin B",
+				"name": "Coin A",
 				"id": 4,
 				"type": "list",
 				"enabled": true,
