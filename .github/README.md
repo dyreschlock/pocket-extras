@@ -37,7 +37,6 @@ For almost every JSON file I have in the repo, I've also included the MRA file. 
 
 There are some extra MRA files, other games and hacks floating around out there that create ROMs that work on released Jotego cores. Those have been included and are as follows.
 
-- Dokaben 2 for JTpang
 - Bubble Bobble Ultra for JTbubl (instructions <a href="/jotego_extras/Assets/jtbubl/mra/README.md">here</a>)
 - Puzzle Club for JTshouse (thanks to <a href="https://github.com/terminator2k2">terminator2k2</a>)
 
