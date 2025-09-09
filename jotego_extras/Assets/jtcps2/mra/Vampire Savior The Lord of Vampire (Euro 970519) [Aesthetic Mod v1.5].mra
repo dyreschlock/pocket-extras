@@ -1,0 +1,410 @@
+<misterromdescription>
+    <about author="MBD" webpage="https://darkmrsoft.web.app" source="https://github.com/mbdcps2" twitter="@VMP_MBD"/>
+    <name>Vampire Savior: The Lord of Vampire (Euro 970519) [Aesthetic Mod v1.5]</name>
+    <setname>vsav_5</setname>
+    <rbf>jtcps2</rbf>
+    <mameversion>0229</mameversion>
+    <year>1997</year>
+    <manufacturer>Capcom</manufacturer>
+    <players>2</players>
+    <joystick>8-way</joystick>
+    <rotation>horizontal</rotation>
+    <region>Europe</region>
+    <platform>CPS-2</platform>
+    <category>Fighting</category>
+    <catver>Fighter / Versus</catver>
+    <mraauthor>MBD</mraauthor>
+    <rom index="0" zip="vsav_5.zip|vsav.zip|qsound.zip" type="merged" md5="None" address="0x30000000">
+        <part>
+        00 10 00 11 00 31 00 b1 
+        ff ff ff ff ff ff ff ff 
+        32 ff 00 02 04 06 26 28 
+        2a 2c 2e 00 00 30 02 04 
+        08 30 ff ff ff ff ff ff 
+        fc ff ff ff
+        </part>
+        <!-- key - starts at 0x0 -->
+        <part name="vsav.key" crc="a6e3b164"/>
+        <!-- maincpu - starts at 0x14 -->
+        <part name="vm3e.03d" crc="f5962a8c"/>
+        <patch offset="0x000001a4">83 7f dc a7</patch>
+        <patch offset="0x00001112">49 f2 9f 6c 2f 4e 80 e5 4d 4c c2 82 2c c0 6d 26 b4 5c 5b 1d 9c e3 80 6b</patch>
+        <patch offset="0x00002496">01 12</patch>
+        <patch offset="0x0000249c">00 00</patch>
+        <patch offset="0x000024a8">03 01</patch>
+        <patch offset="0x00004f66">b6 71 59 0e</patch>
+        <patch offset="0x00005c48">44 da 6a 09 fd 18 41 89 de b7 18 66 82 1b 83 42 f7 78 e0 13 e3 79 be 07 f7 f3</patch>
+        <patch offset="0x00005c64">c7 a2 43 6e</patch>
+        <patch offset="0x00008d04">01 27 c1 57 9e 32</patch>
+        <patch offset="0x00009304">de 23 2d 06</patch>
+        <patch offset="0x00009862">50 f7 6d 13 69 9d</patch>
+        <patch offset="0x00009968">c1 64 e4 22 5b 0e</patch>
+        <patch offset="0x0000a412">2b 5b 6a 9c</patch>
+        <patch offset="0x0000a6e0">ee a9 7d 73 d9 53</patch>
+        <patch offset="0x0000c4a8">00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c4b8">00 02 04 06 08 0a 0c 0e 10 12 14 16 00 00 00 00 00 02 04 06 08 0a 0c 0e 10 12 14 16 02 02 02 02 00 02 04 06 08 0a 0c 0e 10 12 14 16 04 04 04 04 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c4f8">00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c508">00 02 04 06 08 0a 0c 0e 10 12 14 16 06 06 06 06 00 02 04 06 08 0a 0c 0e 10 12 14 16 04 04 04 04 00 02 04 06 08 0a 0c 0e 10 12 14 16 0a 0a 0a 0a 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c548">00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c558">00 02 04 06 08 0a 0c 0e 10 12 14 16 06 06 06 06 00 02 04 06 08 0a 0c 0e 10 12 14 16 0c 0c 0c 0c 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c588">00 02 04 06 08 0a 0c 0e 10 12 14 16 08 08 08 08 00 02 04 06 08 0a 0c 0e 10 12 14 16 16 16 16 16 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c5b8">00 02 04 06 08 0a 0c 0e 10 12 14 16 00 00 00 00 00 02 04 06 08 0a 0c 0e 10 12 14 16 02 02 02 02 00 02 04 06 08 0a 0c 0e 10 12 14 16 04 04 04 04 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c5f8">00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c608">00 02 04 06 08 0a 0c 0e 10 12 14 16 06 06 06 06 00 02 04 06 08 0a 0c 0e 10 12 14 16 04 04 04 04 00 02 04 06 08 0a 0c 0e 10 12 14 16 0a 0a 0a 0a 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c648">00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c658">00 02 04 06 08 0a 0c 0e 10 12 14 16 06 06 06 06 00 02 04 06 08 0a 0c 0e 10 12 14 16 0c 0c 0c 0c 00 02 04 06 08 0a 0c 0e 10 12 14 16</patch>
+        <patch offset="0x0000c688">00 02 04 06 08 0a 0c 0e 10 12 14 16 08 08 08 08 00 02 04 06 08 0a 0c 0e 10 12 14 16 16 16 16 16</patch>
+        <patch offset="0x0000f792">42 4f 52 4f 20 4f 4f 4d 45 44 20 20 20 20 20 20</patch>
+        <patch offset="0x0001066a">4f 54 45 52 4f 4d</patch>
+        <patch offset="0x00010bec">ad 2f 02 8e 02 ed 1d 3c 17 0f 04 55 fa 37 87 37 da 27 d2 6d ea d8 9d 19 93 c1 5c a5 b1 d7 cb 5a 73 07 0d e9 84 e7 ab 34 13 4c 59 90 b9 8b c1 d1 e6 3b 7a e9 de ab fa 95 5a 4b a7 bd 1c 94 2b 59 e5 79 5e 55 64 c2 ea 4d c5 1b 26 71 4e 37 42 64 dc a8 e6 7f e8 34 a0 c3 b0 52 65 04 6d 20 35 d1 e9 9b 69 7c 05 c8 5a 4d 6b f8 94 e3 04 44 93 e0 54 2c c6 09 8a be df 95 e3 10 cd 74 f5 4c 0b 02 36 cc d7 3e d2 b8 ca 51 0a b1 93 28 cc 1a 27 4f 84 32 60 63 21 63 a1 15 81 1f da e0 8f f5 b0 e4 c6 4a 1d 1c 36 35 08 cc 8d a5 d3 46 2c c6 8f db 57 42 fe b3 5a 50 f7 00 59 39 eb fd 41 b8 25 fc ed ca 35 0a e4 6f 0a 26 9c 5b d8 ea 14 02 62 12 3a 8b 01 c5 6b fe 70 f2 93 b1 90 e2 09 9a 48 19 9c ca 87 05 a7 cc 6b 60 a8 b5 67 ca 62 62 f4 cb 3e 9e a4 0d 9f b6 18 af 34 96 96 e1 7c f3 82 02 e4 52 27 a2 46 f5 97 9a a8 17 f3 f8 18 de c1 9f 4f f0 40 7a 82 ea 92 33 41 c1 5e 9f 73 27 92 13 e4 08 bd 12 56 c3 ca 83 49 1e 08 b6 66 04 e5 52 c8 12 57 48 6b 33 54 f8 ad d7 54 b3 8d 73 3d 75 ea d4 1c d5 50 d0 8e 2e 28 9a aa 4c 69 88 a6 33 65 80 ee d0 e1 5f</patch>
+        <patch offset="0x00018abc">1e f5 49 8e 1a ae 27 d4 85 00 13 52</patch>
+        <patch offset="0x000110e4">95 30 61 77 27 9d c9 9d 12 c3 a6 cc d9 33 65 ed a4 69 78 20 48 e8 72 49 0a c3 a9 c8 08 1d e3 ce b2 a7 c2 af a0 3f 22 6b b6 13 a4 54 05 04 25 ce 76 99 b7 42 98 a1 d7 9e a2 a0 25 ba 99 e8 39 8b 9b c7 2e 8b 15 52 6f ee d4 95 ed 07 54 18 27 23 ac 9d 27 c7 d1 2d e0 f6 84 5f 53 81 b0 ad 82 2e c4 24 42 9c 3d a6 d8 b1 ba 1e 64 4d ed 0e 61 6a 45 e2 46 b4 25 5e 4b f0 c2 51 0a e6 42 3c d6 5c 82 ce df 46 5f 76 c9 a6 ab 4f aa 76 ea d6 84 57 9b 74 bc f0 7e 97 fd c0 9b 58 5d 84 56 ec 30 05 2e 69 3c 27 60 a2 6e 01 e6 20 c3 7a 65 7f 53 46 85 f5 29 56 d1 bd b4 03 a0 a1 ba d2 de 68 81 2f 1e 93 fe 75 05 4c 2f 7b cb c7 66 19 a2 fe fe 66 57 e0 fd 50 a2 40 e6 1b 9c 9b b2 b0 f7 37 f1 56 3c 69 a5 39 2f ec 67 b2 27 65 b1 3c 70 b2 2c 3f 88 c2 3c 2d 5d ab 4c fe b9 d3 13 4f 6a 07 57 d7 6e e2 bf 43 b3 2d 86 6d a5 7e 97 58 fd 65 03 3d a4 77 97 b2 6b 58 9d 99 43 cc 2e 24 7a 64 78 76 0d 6a 1f b0 1b ab ee e3 76 6b 6e 95 1f 9c 1f dd 2a 76 66 e4 5a d6 09 b7 92 9d af 6d 71 1c 72 bf fd 29 e1 a5 4d fe ee b8 ca 29 2b 76 d6 8b 5a 12 d4 11 59 ae 18 5a</patch>
+        <patch offset="0x0001c97e">53 20 41 20 56 20 20 20 20 20 20 41 20 45 20 53 20 54 20 48 20 45 20 54 20 49 7f 43 30 0e 56 01 41 53 41 56 20 45 31 76 35 2e 20 20 34 32 30 31 31 33 12 7f 01 3c 55 45 4f 52 39 20 30 37 31 35 7f 39 48 12 4b 01 6c 79 57 65 26 20 4d 20 44 42 00 00</patch>
+        <patch offset="0x0001f2bc">c0 0e 97 31</patch>
+        <patch offset="0x00020abc">58 10 34 88 86 59 b1 b0</patch>
+        <patch offset="0x00020b78">9f bf cb ec f0 57 a4 9b dc a3 fb 95 81 23 22 8b f5 81 37 f5 70 05 78 cf 5f fe 70 1b 6e a3 68 4a 76 f7 90 bb f6 25 15 5d d3 84 b5 92 64 1e 82 66 7b 15 3e f2 13 50 ec da 63 1f ec 96 03 c0 bd 39 04 1e 0e f8 fa c7 90 45 1d 80 c2 19 ff 90 f0 f9 f0 0c 79 67 61 0e e5 81 f8 87 8b b0 8e 3e df d0 08 93 5b 3c 26 e4 34 16 c1 cc fd cc b5 80 e3 13 6c 9c fa 24 25 b0 7a 01 8b 24 09 af 45 ce 79 ce 37 a1 64 cb 97 67 27 ad 81 cd 0c 61 45 d8 a9 1b 82 c0 9f 49 a2 c7 f2 a3 2e 8c 21 1b 09 45 8f 25 7f 20 7a 6c fe c1 49 ac 53 43 b1 09 03 84 91 20 1e bd e9 3d 83 00 52 a5 c7 3f d4 ca b4 b9 a4 fd 4e 90 05 50 83 f0 f1 77 3c e9 10 96 47 57 c1 4a b5 d1 06 ae a1 f1 10 b1 22 39 16 90 0b 94</patch>
+        <patch offset="0x00020c58">2e 55 d0 90 69 6c 4d 39 29 83 c3 b6 c5 24 05 83 1a 95 ee b1 01 29 a5 c2 f1 12</patch>
+        <patch offset="0x00020c74">fd 02</patch>
+        <patch offset="0x00020c78">24 c3 d4 f9 1c d2 7f 2d 22 da 55 a6 b6 95 ed 8d 83 2b 72 5a da 89 91 f8 6b 53</patch>
+        <patch offset="0x00020c94">19 a7</patch>
+        <patch offset="0x0002094e">84 06 9c 37 76 11</patch>
+        <patch offset="0x000209b4">cb 85 ff b8 58 09</patch>
+        <patch offset="0x00021236">12</patch>
+        <patch offset="0x00021924">57 4d 00 43 00 07</patch>
+        <patch offset="0x00021934">50 44 00 47 01 0c</patch>
+        <patch offset="0x00021944">44 44 00 46 02 01</patch>
+        <patch offset="0x00021954">43 44 00 43 03 0b</patch>
+        <patch offset="0x00021964">69 44 00 52 04 05</patch>
+        <patch offset="0x00021984">49 4d 00 4b 00 0d</patch>
+        <patch offset="0x00021994">49 46</patch>
+        <patch offset="0x00021998">01 0f</patch>
+        <patch offset="0x000219a4">41 4e 00 4d 02 02</patch>
+        <patch offset="0x000219b4">4f 42 00 58 03 0a</patch>
+        <patch offset="0x000219c4">4d 41 00 46 04 09</patch>
+        <patch offset="0x0002242e">f8 f1 b0 31</patch>
+        <patch offset="0x000281e8">4a 6a 51 a9</patch>
+        <patch offset="0x0002984a">5f 53 89 a0 d5 52 f1 8a db b0 ad 5a</patch>
+        <patch offset="0x00029a7a">bb ce c7 7b 72 6e</patch>
+        <patch offset="0x0002f6f8">0e c6 7a 7d 54 61 34 b6 5b 1f d2 fb 6b 96 8b 47 e6 c7 66 b5 8a 26 85 e3</patch>
+        <patch offset="0x0002f7f6">75 54 bc bc</patch>
+        <patch offset="0x00033590">2e 08 7c 51 0c 5c 4a a2</patch>
+        <patch offset="0x00037f2e">5b eb c2 a9 c1 5d</patch>
+        <patch offset="0x00037f36">16 c2 0b 71 2a 89</patch>
+        <patch offset="0x00038150">d6 a1 41 cf</patch>
+        <patch offset="0x00038158">8c c3 16 47</patch>
+        <patch offset="0x0003824e">65 cc 32 bc 7d 02 55 f7</patch>
+        <patch offset="0x0003830c">b2 59 60 dd 23 25 5a 50</patch>
+        <patch offset="0x000385c0">46 07 23 b4 5a bf 29 7a</patch>
+        <patch offset="0x00039232">eb 30</patch>
+        <patch offset="0x00039362">b9 d9 c4 8e d0 7d 94 4f d2 d1 e5 e4 c0 72 20 87 51 ce e5 58 3b ab 05 db 62 5d 07 c0 2a db 80 6d</patch>
+        <patch offset="0x0003d944">d8 6e</patch>
+        <patch offset="0x0003d95c">12 e0 6e 79</patch>
+        <patch offset="0x0003d9ba">45 25 e3 be 86 d8 e2 f6 9f fe</patch>
+        <patch offset="0x0003d9fc">90 73 77 75</patch>
+        <patch offset="0x0003e50e">14 1e</patch>
+        <patch offset="0x00040a60">0b 6a</patch>
+        <patch offset="0x00040a6a">97 e9</patch>
+        <patch offset="0x00040bd4">80 07 95 75 e2 70 0b 04 cd fa d8 2b 73 1e 78 b5</patch>
+        <patch offset="0x000443b0">b0 99 08 88 e2 16</patch>
+        <patch offset="0x000443b8">6d 6e b3 20</patch>
+        <patch offset="0x0004ad34">8f 50 5f ee 9c e5</patch>
+        <patch offset="0x0004ad3c">78 e1 4c 16</patch>
+        <patch offset="0x0004d49a">dc a4 16 2a 39 f7 67 44 7a 0b 8d 48 21 de 04 1d</patch>
+        <patch offset="0x00053d2c">ea 35</patch>
+        <patch offset="0x0005404a">c1 ae</patch>
+        <patch offset="0x00054090">a9 cb</patch>
+        <patch offset="0x000540d2">91 3b</patch>
+        <patch offset="0x000540e8">ce e4</patch>
+        <patch offset="0x000540fe">90 dc</patch>
+        <patch offset="0x0005d43c">7b 10 8c 46 08 91 fc e1</patch>
+        <patch offset="0x00062efa">e7 51 7b bf 7a 2b 6d 4f 62 48</patch>
+        <patch offset="0x00066180">2d 00 66 a4</patch>
+        <patch offset="0x0006d6b4">3a f2 b1 14 31 65</patch>
+        <patch offset="0x0007e122">39 45</patch>
+        <patch offset="0x0007f156">ec 7a f4 7f 15 92 e5 7c cc 1b 66 da 6e 77 ef 81</patch>
+        <part name="vm3e.04d" crc="21b40ea2"/>
+        <patch offset="0x000915a4">74 55 47 13 ea 5b</patch>
+        <patch offset="0x000bf6da">d3 b4 0c 96 d9 7e 32 3b ee 10 7f fe f3 86 3d de 0e 30 96 7a 5e 90 98 da f1 a3 64 a1 2e d0 a0 12 f4 73 6c 8e da 44 58 e9 1c 87 eb 13 01 00 4d f2 01 bc a7 e5 77 b4 33 74 70 41 3d 02 3b 03 eb 7b 44 f8 d2 25 73 7f 94 f9 41 88 5f b8 be dd 57 ec e4 68 b4 fe 97 a9 22 45 be 43 eb 17 9c a5 21 f1 6c 13 0a 33 51 99 27 f0 f0 09 c7 c4 90 92 fa d2 f8 45 2e 8c 87 dd 80 11 ad c2 01 7b a4 f7 55 87 37 c4 b2 bf 94 b4 ac 6a 7f cb 04 e3 bf 3c 0a ed 00 04 00 00 15 00 9e e4 01 00 00 00 00 00 00 00 19 3a 00 00 04 00 ff 00 80 04 00 00 15 00 dc e4 01 00 00 00 00 00 00 00 19 3a 00 00 00 00 ff 00 0b 00 2a f7 08 71 9c ea 3c 50 c8 e2 39 30 37 8e 2b 8f f8 1c a1 a0 47 70 c0 30 21 08 71 f5 41 db 79 db 9b 19 eb dd 35 bc 04 25 84 40 30 52 e0 25 02 00 00 03 00 00 1d 00 68 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 8e 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 b4 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 da 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 b4 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 da 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 b4 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 da 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 00 03 00 00 1d 00 b4 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 80 03 00 00 1d 00 8e 2d 00 00 00 00 00 00 00 00 17 00 00 00 00 00 ff 00 0b 00 8c f7 9e d0 92 24 ac 5d 7d 60 3f 88 4d d9 87 a8 38 a4 8c eb 5a 14 d6 c8 b3 9d 84 3b c4 8e d1 b2 a5 9a 29 35 2a 20 0e 2a 22 e6 50 43 56 07 93 19 bb 58 ab a6 4d b7 01 98 24 68 00 f2 47 ac c5 26 ed 03 82 ee 5c d3 90 39 96 38 2a cb 01 20 59 6f c7 e8 33 49 f7 50 29 74 4e 0b ed b2 dd 44 df 93 36 80 c4 0a 70 c3 4e 26 ec 9a 33 f0 15 cb df 43 1b 6c ce ae 97 08 d1 1f 74 14 aa d4 cf 10 0f a4 1c 02 6c 19 49 3c b7 d9 2d 97 0e b1 3a 2d d5 dd 4c 2e e9 4d 9e b4 56 dd 55 97 f7 08 bd d4 ce f9 d8 69 7a 6d 63 26 ab 64 0d 27 48 15 57 0d 0b ea c8 fb de 65 86 0e 7c 53 64 fe 57 d1 45 24 a2 a5 e6 48 b6 e3 3e 65 cb f6 fb cd d4 4f 35 48 2f b2 58 2c 1f 2a 7a a7 cf e7 8a f8 d6 71 89 d3 e2 5f 12 43 2c 45 82 e9 12 c8 8f 5d d2 b6 51 8a c9 63 c4 ca bb 94 6d 62 56 55 9c ae 80 af 72 aa 67 a3 38 20 50 7e 96 5e 1b d9 bd 43 7b cf 58 e8 48 cf 07 a7 c8 dc 2b 5f 6c 61 ca 00 ab db 0e 07 16 7a 1d d3 25 6f 12 02 ad d8 6d 95 ef a0 d7 c5 ef b2 32 9a ad 35 74 47 dc 5d e4 a3 c2 72 14 02 a0 40 04 60 a6 5f cf 56 e0 ec 89 64 92 c7 34 d0 df b6 18 51 2c 72 01 15 d9 1e 8b cf dd e0 29 1b 77 e5 d7 91 35 5d 0c 54 c2 67 58 0b 6c fa 19 04 0c b4 e8 76 cb 18 0b a2 39 b9 ac 8d 8b f6 f1 32 c0 e6 9d 4c d4 19 5a 54 39 96 2d ed 42 a6 d4 38 3a 65 27 04 40 2c 1f c9 ab 1d 65 30 e5 0e f6 72 0a be d2 1c e3 0d 09 da 69 09 97 e6 6f 8a 98 d7 53 8b 93 58 6d 59 51 45 ed ba 00 df d3 9c ad 30</patch>
+        <part name="vm3.05a" crc="4118e00f"/>
+        <part name="vm3.06a" crc="2f4fd3a9"/>
+        <part name="vm3.07b" crc="cbda91b8"/>
+        <part name="vm3.08a" crc="6ca47259"/>
+        <part name="vm3.09b" crc="f4a339e3"/>
+        <part name="vm3.10b" crc="fffbb5b8"/>
+        <patch offset="0x00390c0e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390c2e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390c44">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390c4c">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390c8e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390cae">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390cc4">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390ccc">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390d0e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390d2e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390d44">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390d4c">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390d8e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390dae">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390dc4">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390dcc">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390e0e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390e2e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390e44">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390e4c">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390e8e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390eae">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390ec4">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390ecc">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390f0e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390f2e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390f44">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390f4c">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x00390f8e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390fae">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00390fc4">00 0f 02 0b 03 07</patch>
+        <patch offset="0x00390fcc">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x0039100e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x0039102e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x00391044">00 0f 02 0b 03 07</patch>
+        <patch offset="0x0039104c">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x0039108e">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x003910ae">53 0f 00 0f 00 0d 02 0b 02 09 03 08 03 07</patch>
+        <patch offset="0x003910c4">00 0f 02 0b 03 07</patch>
+        <patch offset="0x003910cc">ba 0f 98 0f 76 0f 53 0f 32 0e 11 0d 00 0d 00 0c 01 0b 01 0a 01 09 02 08 02 08 03 07 a9 0f</patch>
+        <patch offset="0x003a03ec">00 00 22 02 44 04 11 01 22 02 33 03 44 04 55 05 66 06 77 07 20 04</patch>
+        <patch offset="0x003a0738">9c 09 8a 07 79 06 68 05 56 05 66 08 55 08 44 07 33 04</patch>
+        <patch offset="0x003a074c">78 06 66 05 55 04 44 03</patch>
+        <patch offset="0x003a075a">65 07 54 07 43 07 33 06 23 04</patch>
+        <patch offset="0x003a07b6">43 06 32 06 21 05 21 03</patch>
+        <patch offset="0x003a07de">28 00 27 00 26 00 25 00 24 00 23 00</patch>
+        <patch offset="0x003a07ec">22 05 22 04 22 03</patch>
+        <patch offset="0x003a1f0c">11 02 22 03 33 05 a9 0c a8 0d b9 0e ca 0f db 0f fd 0f</patch>
+        <patch offset="0x003a2230">33 02 44 03 55 04 67 05 78 06 8b 06 79 04 68 04 56 04 45 03 34 03 23 02</patch>
+        <patch offset="0x003a224c">48 05 37 04 36 03 25 02 24 01 23 00 9a 07 78 05 68 06 57 05 45 05 58 07 47 07 35 06 24 05</patch>
+        <patch offset="0x003a226c">67 02 57 01 46 01 35 01 24 00 23 00 22 00 44 03 34 03 34 04 23 03 22 01</patch>
+        <patch offset="0x003a228c">56 02 45 02 34 02 23 01 22 00</patch>
+        <patch offset="0x003a229c">68 02 68 02 57 01 46 01 35 01 24 01 23 01</patch>
+        <patch offset="0x003a22ac">cb 04 99 03 78 02 68 02 57 01 36 01 24 01 26 03 25 03 24 01 23 01 22 00 00 0f 25 04</patch>
+        <patch offset="0x003a22cc">57 05 46 04 45 03 34 01 23 01 35 04 34 04 24 04 23 03 34 01 45 01 34 01 23 00</patch>
+        <patch offset="0x003a22ec">25 07 25 06 25 05 24 04 24 03 23 01 23 01</patch>
+        <patch offset="0x003a22fe">28 03 27 03 26 03 25 02 24 02 23 01</patch>
+        <patch offset="0x003a230c">22 05 22 04 22 03 68 04 57 04 46 03 35 03 34 03 24 03 00 0f 23 02</patch>
+        <patch offset="0x003a232c">35 01 34 01 23 01 22 00 79 00 68 00 57 00 46 00 35 00 34 00 23 00 21 00 44 01 33 01</patch>
+        <patch offset="0x003a234c">cb 05 aa 05 99 04 88 04 77 04 56 03 45 03 35 02 24 02</patch>
+        <patch offset="0x003a2360">88 04 67 02 56 01 45 01 34 01</patch>
+        <patch offset="0x003a2f4c">cc 05 ab 05 9a 04 89 04 78 04 56 03 46 03 35 02 24 02</patch>
+        <patch offset="0x003a2f60">89 04 68 02 57 01 45 01 34 01</patch>
+        <patch offset="0x003a2f6c">cd 05 ac 05 9b 04 8a 04 79 04 57 03 46 03 35 02 24 02 23 02 8a 04 69 02 57 01 45 01 34 01</patch>
+        <patch offset="0x003a2f8c">35 01 34 01 23 01 22 00 7a 00 69 00 58 00 47 00 36 00 34 00 23 00 21 00 44 01 33 01</patch>
+        <patch offset="0x003a2fac">35 01 34 01 23 01 22 00 7b 00 6a 00 59 00 47 00 36 00 34 00 23 00 21 00 44 01 33 01</patch>
+        <patch offset="0x003a2fcc">25 08 25 07 25 06 24 05 24 03 23 01 23 01</patch>
+        <patch offset="0x003a2fde">28 03 27 03 26 03 25 02 24 02 23 01</patch>
+        <patch offset="0x003a2fec">26 09 26 08 26 07 25 05 24 03 23 01 23 01</patch>
+        <patch offset="0x003a2ffe">28 03 27 03 26 03 25 02 24 02 23 01</patch>
+        <patch offset="0x003a300c">cc 04 9a 03 79 02 69 02 58 01 36 01 24 01 26 03 25 03 24 01 23 01 22 00 00 0f 25 04</patch>
+        <patch offset="0x003a302c">dd 04 9b 03 7a 02 6a 02 58 01 36 01 24 01 26 03 25 03 24 01 23 01 22 00 00 0f 25 04</patch>
+        <patch offset="0x003a304c">56 02 45 02 34 02 23 01 22 00</patch>
+        <patch offset="0x003a305c">69 02 69 02 58 01 47 01 35 01 24 01 23 01</patch>
+        <patch offset="0x003a306c">56 02 45 02 34 02 23 01 22 00</patch>
+        <patch offset="0x003a307c">7a 02 7a 02 59 01 47 01 35 01 24 01 23 01</patch>
+        <patch offset="0x003a3090">33 02 44 03 55 04 67 05 78 06 8c 06 7a 04 69 04 56 04 45 03 34 03 23 02</patch>
+        <patch offset="0x003a30b0">33 02 44 03 55 04 67 05 78 06 8d 06 7b 04 6a 04 57 04 45 03 34 03 23 02</patch>
+        <patch offset="0x003b7994">66 08</patch>
+        <patch offset="0x003b79a0">77 0a</patch>
+        <patch offset="0x003b79b4">77 08 66 08 55 08 44 07 32 06 33 05 33 04</patch>
+        <patch offset="0x003b79cc">55 06</patch>
+        <patch offset="0x003b79d4">77 08 66 08 55 08 44 07 32 06 32 05</patch>
+        <patch offset="0x003b7a08">42 08 21 06 31 06 10 04 22 03</patch>
+        <patch offset="0x003b7a28">42 08 21 06 31 06 10 04 10 02</patch>
+        <patch offset="0x003b7a7a">88 0a 77 0a 66 0a 55 0a 77 0d 66 0c 55 0b 44 0a 33 08 22 07 11 05 11 04</patch>
+        <patch offset="0x003b7a94">99 0a</patch>
+        <patch offset="0x003b7a9c">53 06</patch>
+        <patch offset="0x003b7aa0">88 0a 77 0a 66 0a 55 0a 44 09</patch>
+        <patch offset="0x003b7aac">31 06 10 05 10 03</patch>
+        <patch offset="0x003b7ab4">76 09 66 08</patch>
+        <patch offset="0x003b7abe">77 0a 66 0a 55 0a</patch>
+        <patch offset="0x003b7ae4">77 0a 66 0a 55 0a 33 09 22 07</patch>
+        <patch offset="0x003b7b36">33 04</patch>
+        <patch offset="0x003b7b54">66 0a 55 0a 44 09</patch>
+        <patch offset="0x003b7b94">47 03</patch>
+        <patch offset="0x003b7b9e">22 07</patch>
+        <patch offset="0x003b7ba8">45 03 34 02 23 02</patch>
+        <patch offset="0x003b7bb4">76 0a</patch>
+        <patch offset="0x003b7bc0">77 0a 66 0a 55 0a 44 0a 33 08 22 07 42 09 21 05 10 04</patch>
+        <patch offset="0x003b7bd4">36 02 25 01</patch>
+        <patch offset="0x003bcdf4">ba 05 a9 05 98 05 88 05 77 05 66 05</patch>
+        <patch offset="0x003bce02">45 04 34 03 89 02 78 02 58 04 46 04 35 03 23 02</patch>
+        <patch offset="0x003bce14">a9 05 98 05 88 05 77 05 66 05</patch>
+        <patch offset="0x003bce20">45 04</patch>
+        <patch offset="0x003bce24">69 05 79 04 67 04 57 04 45 03 35 02 23 01</patch>
+        <patch offset="0x003bce34">a9 05 98 05 88 05 77 05 66 05</patch>
+        <patch offset="0x003bce40">45 04 34 03 23 02 22 02 78 02 56 02 46 03 35 03 35 01</patch>
+        <patch offset="0x003bce54">89 05 77 05 66 05 43 05</patch>
+        <patch offset="0x003bce5e">45 04</patch>
+        <patch offset="0x003bce62">23 02 8e 07 69 06 68 05 57 03 46 02 34 01 23 01</patch>
+        <patch offset="0x003bce74">99 05 88 05 77 05 66 05</patch>
+        <patch offset="0x003bce80">45 04 34 03 23 02 69 06 68 05 57 03 46 02 34 01 23 01</patch>
+        <patch offset="0x003bce94">99 05 88 05 77 05 66 05</patch>
+        <patch offset="0x003bcea0">45 04 34 03 23 02 12 00 68 06 57 03 46 02 35 02 23 01</patch>
+        <patch offset="0x003bceb4">7b 07 69 06 56 05 45 04 34 03 21 01 7b 0a</patch>
+        <patch offset="0x003bced4">7c 07 6b 07 59 07 47 07 35 06 35 05 35 04 45 04 34 03 8e 07 69 05 58 04 57 03 46 02 35 02</patch>
+        <patch offset="0x003bcef4">7c 07 6b 07 59 07 46 06 33 04 33 03</patch>
+        <patch offset="0x003bcf02">57 03 8e 07 7c 06 6b 04 59 03 47 02 35 02 23 01</patch>
+        <patch offset="0x003bcf14">9c 08 8b 07 7a 06 68 05 56 04 45 03</patch>
+        <patch offset="0x003bcf22">45 04 34 03 21 01 44 05 33 05 33 05 22 04 23 02</patch>
+        <patch offset="0x003bcf3a">99 05 88 05 66 05</patch>
+        <patch offset="0x003bcf42">45 04 34 03 21 01 44 05 33 05 33 05 22 04 12 03</patch>
+        <patch offset="0x003bcf54">77 04 67 03 57 03 99 05 88 05 77 05</patch>
+        <patch offset="0x003bcf62">45 04 34 03</patch>
+        <patch offset="0x003bcf6a">59 03 47 02 35 02 23 01</patch>
+        <patch offset="0x003bcf74">77 04 67 03 57 03</patch>
+        <patch offset="0x003bcf7c">45 04 34 03 23 02 22 02 7a 07 69 06 68 05 57 03 46 02 34 01 23 01</patch>
+        <patch offset="0x003bcf94">45 04 34 03 23 02 8d 0a 7b 0a 69 0a 57 09 79 0b 68 0b 56 0a 45 09 34 08 23 06 12 04 11 02</patch>
+        <patch offset="0x003bcfb4">9d 0a 8c 09 7a 07 68 06 56 05 45 05 8c 0a 7b 0a 6a 0a 58 09 46 07 34 05 33 05 22 04 12 03</patch>
+        <patch offset="0x003bcfd4">8e 09 7a 07 68 06 56 05 45 04 7b 0a 6a 0a 58 09 9c 08 8b 07 7a 06 68 05 56 04 45 03 33 02</patch>
+        <patch offset="0x003bcff4">7a 07 68 05 56 05 79 07 77 05 66 05 45 04 34 04 6a 0a 58 0a 36 08 35 07 23 05 8b 07 23 00</patch>
+        <patch offset="0x003bd014">8b 07</patch>
+        <patch offset="0x003bd018">55 05 45 05 45 04 34 03 89 02 79 04 78 05 68 05 57 04 45 03 33 02</patch>
+        <patch offset="0x003bd030">23 00</patch>
+        <patch offset="0x003bd034">98 05 88 05 77 05 66 05</patch>
+        <patch offset="0x003bd03e">45 04 34 04 53 04</patch>
+        <patch offset="0x003bd050">23 00</patch>
+        <patch offset="0x003bd056">35 04 77 05 66 05</patch>
+        <patch offset="0x003bd05e">45 04 34 03 23 02 8c 08 7a 06 68 04 57 03 46 02 35 02 23 01</patch>
+        <patch offset="0x003bd074">6a 0a 58 0a 36 08 88 07 77 05 66 05 45 04 34 03 9c 08 8b 07 7a 06 68 05 56 04 45 03 33 02</patch>
+        <patch offset="0x003bd094">88 08 77 07 66 06</patch>
+        <patch offset="0x003bd09c">45 04 34 03 23 02</patch>
+        <patch offset="0x003bd0a6">7a 07 68 06 57 05 45 04 34 02 23 01</patch>
+        <patch offset="0x003bd0b4">58 04 47 03 35 02 24 01 23 00 23 05 45 03 34 03 23 02 68 05 56 04 56 04 45 03 34 03 23 01</patch>
+        <patch offset="0x003bd0d4">7a 08 88 08 77 07 66 07 45 04 34 03 7a 0a 68 09 56 0a 45 09 34 08 22 06 55 07 23 05 12 04</patch>
+        <patch offset="0x003bd0f4">36 03 25 02 24 01 23 00</patch>
+        <patch offset="0x003bd0fe">45 05 34 03 23 02 e4 05 e4 05 58 05 46 04 34 03 23 02 22 02</patch>
+        <patch offset="0x003c7952">b8 0f 96 0f 74 0f 53 0e</patch>
+        <patch offset="0x003c796a">b8 0f 96 0f 74 0f 53 0d 42 0b 32 08 97 0c 75 0b</patch>
+        <patch offset="0x003c7986">55 06 33 04 a7 0d 86 0c 66 08 64 0c 42 0b 32 09 21 06 21 04</patch>
+        <patch offset="0x003c79ae">97 0d 75 0d 54 0b 32 09 21 06 21 04</patch>
+        <patch offset="0x003c79ca">76 0b 54 09 97 0d 75 0d 54 0b 32 09 21 06 21 04</patch>
+        <patch offset="0x003c79ec">55 08</patch>
+        <patch offset="0x003c79f0">43 0a 32 08 21 06 21 05 21 04</patch>
+        <patch offset="0x003c7a36">33 04 22 03</patch>
+        <patch offset="0x003c7a4e">96 0d 75 0c 54 0b 32 08 21 06 44 06</patch>
+        <patch offset="0x003c7a68">66 09 55 08 34 05 44 06 43 0a 32 08 21 06 21 05 21 04</patch>
+        <patch offset="0x003cd73c">fc 0f ea 0f da 0e ca 0b ba 09 99 06 89 06 db 0e cb 0c aa 0a 99 08 ca 0f 97 0f 75 0f 54 0f</patch>
+        <patch offset="0x003cd75c">fc 0f ea 0f da 0e ca 0b ba 09 99 06 89 06 ca 0f a7 0f 75 0f 54 0d 42 0b 42 0a 9a 0d 76 0f</patch>
+        <patch offset="0x003cd77c">da 0e ca 0b ba 09 99 06 77 05 56 04 33 05 99 09 77 08 56 08 54 0a 32 09 21 07 21 05 21 04</patch>
+        <patch offset="0x003cd79c">ca 0b ba 09 a9 06 88 05 77 05 66 04 55 03 99 09 88 07 98 0a 76 0b 54 0b 32 09 21 07 21 05</patch>
+        <patch offset="0x003cd7bc">ca 0b ba 09 a9 06 88 06 77 05 66 04 55 03 66 08 55 09 a9 0b 66 0a 32 09 21 07 21 05 21 04</patch>
+        <patch offset="0x003cd7dc">ca 0b ba 09 99 06 88 06 67 06 45 03 34 03 22 01 56 07 35 06 44 0b 32 08 21 07 21 06 21 04</patch>
+        <patch offset="0x003cd7fc">cb 0f bb 0e ba 09 99 06 77 04 66 04 55 03 44 03 32 02 21 01 10 0f 10 0f 10 0f 10 0f 10 0f</patch>
+        <patch offset="0x003cd81c">eb 0f da 0e ca 0b ba 09 a9 06 98 05 77 04 66 04 55 03 44 03 32 02 21 01 10 0f 21 04 21 03</patch>
+        <patch offset="0x003cd83c">ca 0b ba 09 99 06 77 04 66 04 55 04 45 03 34 03 22 01 a8 0b 76 0b 54 0a 32 09 21 06 44 06</patch>
+        <patch offset="0x003cd85c">ca 0b ba 09 99 06 99 06 77 05 67 06 56 07 55 09 45 06 44 06 44 0b 32 09 21 06 21 06 21 04</patch>
+        <patch offset="0x003cd87c">25 08 25 07 25 06 25 05 25 04 25 03 23 02</patch>
+        <patch offset="0x003cd89c">99 06 77 04 66 04 55 03 44 03 32 02 21 01</patch>
+        <patch offset="0x003cd8ac">11 0f db 07 cb 06 ba 06 a9 05 98 04 88 04</patch>
+        <patch offset="0x003ce7dc">99 06 77 04 66 04 55 03 44 03 32 02 21 01</patch>
+        <patch offset="0x003ce7ee">dc 07 cc 06 bb 06 aa 05 99 04 88 04</patch>
+        <patch offset="0x003ce99c">99 06 77 04 66 04 55 03 44 03 32 02 21 01</patch>
+        <patch offset="0x003ce9ae">dc 07 cc 06 bb 06 aa 05 99 04 88 04</patch>
+        <patch offset="0x003d9f12">22 04 22 03 23 04 24 04 23 03 22 02</patch>
+        <patch offset="0x003d9f24">22 04 22 03 22 02</patch>
+        <patch offset="0x003da004">a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00</patch>
+        <patch offset="0x003e0c04">9a 04 8a 03 79 02 69 02 58 02 47 02 36 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e0c1a">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e0c24">9a 04 8a 03 79 02 69 02 58 02 47 02 36 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e0c3a">79 02 69 02 58 02 47 02</patch>
+        <patch offset="0x003e0c44">79 02 69 02 58 02 69 02 58 02 47 02 36 01 25 01 24 01 23 00 31 02 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e0c64">79 02 69 02 58 02 47 02 36 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e0c7a">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e0c84">79 02 69 02 58 02 47 02 36 01 25 01 24 01 23 00 22 00</patch>
+        <patch offset="0x003e0c98">66 03 55 02 44 02 33 01 33 01</patch>
+        <patch offset="0x003e0ca4">48 02 37 02 26 01 25 01 24 01 23 00 22 00 25 01</patch>
+        <patch offset="0x003e0cbc">55 02 44 01</patch>
+        <patch offset="0x003e0cc4">da 06 ca 03 aa 03 9a 02 8a 01 7a 01 59 01 48 01 59 04 47 05 36 05 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e0ce4">fb 07 ea 06 ca 03 aa 02 9a 02 8a 01 7a 01 69 01 59 04 47 05 36 05 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e0d04">77 04 66 03 55 02 44 02 33 01 33 01 24 01 23 00 22 00</patch>
+        <patch offset="0x003e0d1a">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e0d24">29 02 28 02 27 02 26 02 25 01 24 00 23 00 22 00 24 02 24 03 23 01 23 01 23 01</patch>
+        <patch offset="0x003e0d44">a7 00 28 06 27 05 26 04 25 03 24 02 23 01 22 00</patch>
+        <patch offset="0x003e0d58">23 05 23 04 23 03</patch>
+        <patch offset="0x003e0d84">22 04 22 03 22 02</patch>
+        <patch offset="0x003e0d96">37 00 26 00 25 00 24 00 23 00</patch>
+        <patch offset="0x003e0db2">29 05</patch>
+        <patch offset="0x003e0dc4">38 06 27 05 27 05 26 04 25 03 24 02 23 01 22 00</patch>
+        <patch offset="0x003e0dd8">28 05 27 04 26 03 25 02 24 01</patch>
+        <patch offset="0x003e0de4">25 08 25 06 25 05 25 04 25 03 24 01 23 01</patch>
+        <patch offset="0x003e0df4">24 00 23 00 24 02 25 03 24 02 23 01</patch>
+        <patch offset="0x003e0e04">24 02 25 03 36 04 25 03 24 01 23 01 28 05 27 04 27 04 26 03 25 02 24 01 23 00</patch>
+        <patch offset="0x003e0e44">26 02 25 01 24 00 23 00 22 00 24 02 23 02</patch>
+        <patch offset="0x003e0e54">24 02 24 03 23 01 23 01 23 01</patch>
+        <patch offset="0x003e0e64">a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00</patch>
+        <patch offset="0x003e0e84">a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00</patch>
+        <patch offset="0x003e0e98">a7 00 a7 00 a7 00 a7 00 a7 00</patch>
+        <patch offset="0x003e0ea4">a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00 a7 00</patch>
+        <patch offset="0x003e2404">9b 04 8b 03 7a 02 6a 02 59 02 48 02 36 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e241a">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e2424">9c 04 8c 03 7b 02 6b 02 5a 02 49 02 37 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e243a">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e2444">9b 04 8b 03 7a 02 6a 02 59 02 48 02 37 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e245a">7a 02 6a 02 59 02 48 02</patch>
+        <patch offset="0x003e2464">9c 04 8c 03 7b 02 6b 02 5a 02 49 02 37 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e247a">7b 02 6b 02 5a 02 49 02</patch>
+        <patch offset="0x003e2484">7a 02 6a 02 59 02 6a 02 59 02 48 02 37 01 25 01 24 01 23 00 31 02 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e24a4">7b 02 6b 02 5a 02 6b 02 5a 02 49 02 37 01 25 01 24 01 23 00 31 02 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e24c4">7a 02 6a 02 59 02 48 02 37 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e24da">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e24e4">7b 02 6b 02 5a 02 49 02 37 01 25 01 24 01 23 00</patch>
+        <patch offset="0x003e24fa">25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e2504">7a 02 6a 02 59 02 48 02 37 01 25 01 24 01 23 00 22 00</patch>
+        <patch offset="0x003e2518">66 03 55 02 44 02 33 01 33 01</patch>
+        <patch offset="0x003e2524">7b 02 6b 02 5a 02 49 02 38 01 26 01 24 01 23 00 22 00</patch>
+        <patch offset="0x003e2538">66 03 55 02 44 02 33 01 33 01</patch>
+        <patch offset="0x003e2544">45 02 38 02 27 01 25 01 24 01 23 00 22 00 25 01</patch>
+        <patch offset="0x003e255c">55 02 44 01</patch>
+        <patch offset="0x003e2564">59 02 48 02 36 01 25 01 24 01 23 00 22 00 25 01</patch>
+        <patch offset="0x003e257c">55 02 44 01</patch>
+        <patch offset="0x003e2584">da 06 cb 03 ab 03 9b 02 8b 01 7b 01 5a 01 49 01 59 04 47 05 36 05 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e25a4">db 06 cc 03 ac 03 9c 02 8c 01 7c 01 5b 01 4a 01 59 04 47 05 36 05 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e25c4">fc 07 eb 06 cb 03 ab 02 9b 02 8b 01 7b 01 6a 01 59 04 47 05 36 05 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e25e4">fd 07 ec 06 cc 03 ac 02 9c 02 8c 01 7c 01 6b 01 59 04 47 05 36 05 25 04 24 03 23 02 22 01</patch>
+        <patch offset="0x003e2604">25 09 25 07 25 06 25 05 25 04</patch>
+        <patch offset="0x003e2610">23 01 25 00 24 00 23 00 24 02 25 03 24 02 23 01</patch>
+        <patch offset="0x003e2624">25 0a 25 08 25 07 25 06 25 04</patch>
+        <patch offset="0x003e2630">23 01 25 00 24 00 23 00 24 02 25 03 24 02 23 01</patch>
+        <patch offset="0x003e2644">24 02 25 03 36 04 25 03 24 01 23 01 29 05 28 04 28 04 26 03 25 02 24 01 23 00</patch>
+        <patch offset="0x003e2664">24 02 25 03 36 04 25 03 24 01 23 01 2a 05 29 04 28 04 26 03 25 02 24 01 23 00</patch>
+        <!-- audiocpu - starts at 0x400014 -->
+        <part name="vm3.01" crc="f778769b"/>
+        <part name="vm3.02" crc="cc09faa1"/>
+        <!-- qsound - starts at 0x440014 -->
+        <interleave output="16">
+            <part name="vm3.11m" crc="e80e956e" map="12"/>
+        </interleave>
+        <interleave output="16">
+            <part name="vm3.12m" crc="9cd71557" map="12"/>
+        </interleave>
+        <!-- gfx - starts at 0xC40014 -->
+        <interleave output="64">
+            <part name="vm3.13m" crc="fd8a11eb" map="00000021"/>
+            <part name="vm3.15m" crc="dd1e7d4e" map="00002100"/>
+            <part name="vm3.17m" crc="6b89445e" map="00210000"/>
+            <part name="vm3.19m" crc="3830fdc7" map="21000000"/>
+        </interleave>
+        <interleave output="64">
+            <part name="vm3.14m" crc="c1a28e6c" map="00000021"/>
+            <part name="vm3.16m" crc="194a7304" map="00002100"/>
+            <part name="vm3.18m" crc="df9a9f47" map="00210000"/>
+            <part name="vm3.20m" crc="c22fc3d9" map="21000000"/>
+        </interleave>
+        <!-- QSound firmware - starts at 0x2C40014 -->
+        <part name="dl-1425.bin" crc="d6cf5ef5" length="0x2000"/>
+        <!-- Total 0x2C42014 bytes - 45320 kBytes -->    </rom>
+    <rom index="1">
+        <part>00</part>
+    </rom>
+    <rom index="2">
+        <part>01 12 01 00 00 01 00 00 00 02 00 00 00 00 00 00 01 01 03 01 00 01 00 00 00 00 00 00 00 00 00 00 05 97 0a 19 4d 56 45 33 65 72 73 20 76 61 6f 69 01 12 01 00 00 01 00 00 00 02 00 00 00 00 00 00 01 01 03 01 00 01 00 00 00 00 00 00 00 00 00 00 05 97 0a 19 4d 56 45 33 65 72 73 20 76 61 6f 69 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</part>
+    </rom>
+    <nvram index="2" size="128"/>
+    <buttons names="Light Punch,Middle Punch,Heavy Punch,Light Kick,Middle Kick,Heavy Kick,Start,Coin" default="Y,X,B,A,L,R,Select,Start,-" count="6"/>
+</misterromdescription>

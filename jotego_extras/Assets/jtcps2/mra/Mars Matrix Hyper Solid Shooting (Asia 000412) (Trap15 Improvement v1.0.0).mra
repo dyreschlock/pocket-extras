@@ -1,0 +1,194 @@
+<!--          FPGA arcade hardware by Jotego
+
+              This core is available for hardware compatible with MiST and MiSTer
+              Other FPGA systems may be supported by the time you read this.
+              This work is not mantained by the MiSTer project. Please contact the
+              core author for issues and updates.
+
+              (c) Jose Tejada, 2025. Please support this research
+              Patreon: https://patreon.com/jotego
+
+              The author does not endorse or participate in illegal distribution
+              of copyrighted material. This work can be used with compatible
+              software. This software can be homebrew projects or legally
+              obtained memory dumps of compatible games.
+
+              This file license is GNU GPLv2.
+              You can read the whole license file in
+              https://opensource.org/licenses/gpl-2.0.php
+
+-->
+
+<!--
+Mars Matrix Improvement v1.0.0
+
+Planned and developed by Alex "trap15" Marshall in 2025. Released on 25th anniversary.
+
+email: trap15@raidenii.net | web: http://daifukkat.su/ | twitter: @trap0xf
+
+Official website: http://daifukkat.su/hacks/mmxi/
+
+Source code: http://bitbucket.org/trap15/mmatrix_unfuck/
+About
+
+This patch removes 2 frames of input lag, and adds several quality of life improvements:
+
+    Pressing ABC+Start will reset the game from any point.
+    Resetting the game either with the above soft-reset or by entering the test menu, will no longer reset the score table.
+    Button B is a rapid-cannon button, firing the cannon at the fastest possible rate.
+    Button C is a rapid-fire button, firing the rapid shot at the fastest possible rate.
+    Sound effect volume is significantly reduced. When pressing start, holding A will use the original volume.
+    Initial version and legal screens can be skipped with start or coin, instead of only A.
+
+Source code may be found at http://bitbucket.org/trap15/mmatrix_unfuck/
+-->
+
+<misterromdescription>
+    <about author="jotego" webpage="https://patreon.com/jotego" twitter="@topapate" source="https://jotego/jtcores"/>
+    <rotation>horizontal</rotation>
+    <name>Mars Matrix: Hyper Solid Shooting (Asia 000412)</name>
+    <setname>mmatrixa_trap15</setname>
+    <mameversion>0261</mameversion>
+    <year>2000</year>
+    <manufacturer>Takumi (Capcom license)</manufacturer>
+    <players>2</players>
+    <rbf>jtcps2</rbf>
+    <joystick>8</joystick>
+    <region>World</region>
+    <rom index="0" zip="mmatrixa.zip|mmatrix.zip|qsound.zip" md5="None" address="0x30000000" asm_md5="f0da3879166de7ef388cc744cd7bdd6f">
+        <!--  -->
+        <part>
+            00 06 80 06 80 26 80 A6
+            FF FF FF FF FF FF FF FF
+            32 FF 00 02 04 06 26 28
+            2A 2C 2E 00 00 30 02 04
+            08 30 FF FF FF FF FF FF
+            FF FF FF FF </part>
+        <!-- key - starts at 0x0 - length 0x14 (5 bits) -->
+        <part name="mmatrixa.key" crc="f6a944b4"/>
+        <!-- maincpu - starts at 0x14 - length 0x180000 (21 bits) -->
+        <part name="mmxa.03" crc="1d670ed7"/>
+        <part name="mmxa.04" crc="43be66d2"/>
+        <part name="mmxa.05" crc="9bfe3082"/>
+        <!-- audiocpu - starts at 0x180014 - length 0x20000 (17 bits) -->
+        <part name="mmx.01" crc="c57e8171"/>
+        <!-- qsound - starts at 0x1A0014 - length 0x800000 (23 bits) -->
+        <interleave output="16">
+            <part name="mmx.11m" crc="4180b39f" map="12"/>
+        </interleave>
+        <interleave output="16">
+            <part name="mmx.12m" crc="95e22a59" map="12"/>
+        </interleave>
+        <!-- gfx - starts at 0x9A0014 - length 0x2000000 (25 bits) -->
+        <interleave output="64">
+            <part name="mmx.13m" crc="04748718" map="00000021"/>
+            <part name="mmx.15m" crc="38074f44" map="00002100"/>
+            <part name="mmx.17m" crc="e4635e35" map="00210000"/>
+            <part name="mmx.19m" crc="4400a3f2" map="21000000"/>
+        </interleave>
+        <interleave output="64">
+            <part name="mmx.14m" crc="d52bf491" map="00000021"/>
+            <part name="mmx.16m" crc="23f70780" map="00002100"/>
+            <part name="mmx.18m" crc="2562c9d5" map="00210000"/>
+            <part name="mmx.20m" crc="583a9687" map="21000000"/>
+        </interleave>
+        <!-- firmware - starts at 0x29A0014 - length 0x2000 (13 bits) -->
+        <part name="dl-1425.bin" crc="d6cf5ef5" length="0x2000"/>
+        <!-- Total 0x29A2014 bytes - 42632 kBytes -->
+        <patch offset="0x00000044">cf 77 9c 7c</patch>
+        <patch offset="0x00119ac2">38 01 10 4f</patch>
+        <patch offset="0x00119be2">30 73</patch>
+        <patch offset="0x00119bee">85 a7</patch>
+        <patch offset="0x00119c44">e3 11</patch>
+        <patch offset="0x00119c4a">eb a0</patch>
+        <patch offset="0x0014f810">9d 6d 1d 0f 07 15</patch>
+        <patch offset="0x0014f8c8">e0 d8</patch>
+        <patch offset="0x0014f94a">d3 05 1b 5e 13 85</patch>
+        <patch offset="0x0014f9f4">cc b7 65 9e</patch>
+        <patch offset="0x0015208c">9c 3a fa 6a</patch>
+        <patch offset="0x00152092">21 7a a6 d2 cb 34 fa bf fa 0c 4e 2a 70 
+                                   23 32 69 80 71 fe 40 d8 a0 5e bd 38 5f 
+                                   35 48 82 14 ee ba 28 58 93 fd d3 ae 6e 
+                                   96 dc e6 a0 90 66 47 a1 6a 0e 30 2c bd 
+                                   33 6b d6 93 9e ff e3 af 23 49 3e f5 a8 
+                                   80 cb 75 89 cb 0f 23 9b df 42 11 e8 82
+        </patch>
+        <patch offset="0x00153058">6f 54 c2 c5</patch>
+        <patch offset="0x001543ee">f1 99 44 f8 7a e4 38 fb</patch>
+        <patch offset="0x00156a4c">c2 f9 96 41</patch>
+        <patch offset="0x00156a54">de 1b</patch>
+        <patch offset="0x00156a7c">92 f2 fa a9</patch>
+        <patch offset="0x00156a9c">06 be ea 0b</patch>
+        <patch offset="0x00156b5e">30</patch>
+        <patch offset="0x00156b60">2f 30 34 30 31 2f 20 32 20 2b 35 32 30 2f 2f 34 32 31</patch>
+        <patch offset="0x001585d4">c4 3a 22 92</patch>
+        <patch offset="0x00160084">fc 57 96 bc 17 ba c5 fd 2f 17</patch>
+        <patch offset="0x00160604">95 1b 35 bd</patch>
+        <patch offset="0x00160632">ac 5f 0e 07</patch>
+        <patch offset="0x0017fe40">f5 50 ac ed 7f 6e 37 10 d7 a3 88 58 97 
+                                   57 e7 08 3e 84 36 2f b4 e9 5e dd 2f 3b 
+                                   77 b3 7f f4 4a 50 b9 85 99 2c ca 03 ca 
+                                   9d a8 af 71 0a a1 7d 78 6f fd 5f f2 84 
+                                   53 ba ca 4e 95 01 15 65 a1 20 41 6e 49 
+                                   63 58 2f 5d fe ce f0 62 64
+        </patch>
+        <patch offset="0x0017fe8b">cd 1b cc 0c d0 95 88 06 ba 5b b2 b6 53 
+                                   b8 d4 f2 7d 34 4f d8 66 a2 d9 c3 3f f2 
+                                   bb 32 72 70 1c 3f 58 b1 f0 e0 5e 99 6f 
+                                   b6 a1 ff 95 c5 77 fd 5a 67 70 27 dd 1e 
+                                   88 72 b3 56 75 df cd f5 53 13 0b ea f4 
+                                   6e 73 47 d1 ba 43 74 21 82 44 26 7f f7 
+                                   f1 f3 c6 50 c0 52 cb 58 2b 6d 3a 86 8f 
+                                   14 a6 82 cc 8f 91 ff a7 58 1d 0e ea 55 
+                                   37 4a d4 34 fb 2a 3a 02 43 45 71 8e 13 
+                                   fa ed a4 5f 99 9b 7b 78 d1 3a 0e 5a 4c 
+                                   2d 31 40 dc 20 14 32 c6 74 88 0a e2 a9 
+                                   33 31 b2 6e 47 a2 52 a7 52 08 ee 8b 14 
+                                   d8 c0 86 0d 80 59 e4 ff 7a a9 92 05 3b 
+                                   b7 0b 30 7d d6 f6 93 bc 96 1d 7d 1d 22 
+                                   9a d3 5c 03 9a cf f3 7e 19 a4 dd 14 73 
+                                   37 6d 74 a2 77 ec 77 ba 11 9d 15 f1 af 
+                                   8b d2 83 98 45 38 e5 c8 f6 5e 6d 3d c8 
+                                   72 6b 8f ef 60 75 aa 0e ab 56 b8 0f ed 
+                                   df 27 ad c9 6a 89 80 80 d6 3b b3 d6 99 
+                                   fe 5f 31 4f e9 f9 ad d2 60 6d c2 cf 5b 
+                                   b2 c6 17 73 b3 f3 cc 0b 76 84 f1 cc af 
+                                   74 6a 4a ff
+        </patch>
+        <patch offset="0x0017ffa1">9b f6 09 9e 6b 35 70 97 c8 29 f8 e5 35 
+                                   de 46 f6 ca 18 03 86 aa 07 71 ab 1a 1c 
+                                   f5 02 e2 c6 99 5b fd e6 c0 47 51 e0 03 
+                                   15 a7 02 18 59 d8 7a 67 36 e1 c2 af 42 
+                                   85 ab 14 69 9a
+        </patch>
+        <patch offset="0x0018202c">dd 7e</patch>
+        <patch offset="0x0018202f">a7 cd 00 70 00</patch>
+        <patch offset="0x00187040">28 1e 3a 10 c0 a7 20 18 d5 54 5d cb 3a 
+                                   cb 1b a7 ed 52 cb 3a cb 1b cb 3a cb 1b 
+                                   cb 3a cb 1b 19 d1 7d 32 01 d0 7c 32
+        </patch>
+        <patch offset="0x00187067">d0 c9</patch>
+    </rom>
+    <rom index="2">
+        <part>
+61 43 4D 70 55 4D 41 53 00 00 00 00 00 00 00 00
+00 00 00 01 01 01 02 01 00 03 02 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+</part>
+    </rom>
+    <nvram index="2" size="128"/>
+    <rom index="1">
+        <part>00 80</part>
+    </rom>
+    <switches page_id="1" page_name="Switches" base="16" default="ff,ff">
+        <DSWA/>
+        <DSWB/>
+        <DSWC/>
+    </switches>
+    <buttons names="Shot,Auto Cannon,Rapid Shot,-,-,-,Start,Coin,Core credits" default="A,Start,Select,-" count="1"/>
+</misterromdescription>
