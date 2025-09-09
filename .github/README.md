@@ -23,7 +23,7 @@ Current extras and edits are collected into the following 5 releases:
 Included in `pocket-extras` are several games that work on the release including: 
 - CPS1 and CPS1.5 Conversions to CPS2, including The Punisher, Street Fighter II Championship Edition, and Final Fight 30th Anniversary Edition
 - CPS1 Conversions to CPS1.5, including Mega Man Power Battle and Street Fighter Zero
-- <a href="https://github.com/atrac17/Arcade_Offset">Arcade_Offset</a> hacks for CPS2 and CPS1
+- <a href="https://github.com/Toryalai1/Arcade_Offset">Arcade_Offset</a> hacks for CPS2 and CPS1
 
 CPS Conversions were done by <b><a href="https://github.com/terminator2k2">terminator2k2</a></b>.
 
