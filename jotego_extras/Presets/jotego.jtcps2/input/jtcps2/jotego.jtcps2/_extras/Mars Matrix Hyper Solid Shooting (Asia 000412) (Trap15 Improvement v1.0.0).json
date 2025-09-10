@@ -9,6 +9,16 @@
 						"id": 0,
 						"name": "Shot",
 						"key": "pad_btn_a"
+					},
+					{
+						"id": 1,
+						"name": "Auto Cannon",
+						"key": "pad_btn_b"
+					},
+					{
+						"id": 2,
+						"name": "Rapid Shot",
+						"key": "pad_btn_x"
 					}
 				]
 			}
