@@ -1,0 +1,252 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Reset Core",
+        "type": "action",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfd000000",
+        "mask": "0xfffffffe",
+        "value": "0x1"
+      },
+      {
+        "id": 11,
+        "name": "Options>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 12,
+        "name": "CPU Overclock",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffffe",
+        "value": "0x1",
+        "value_off": "0x0"
+      },
+      {
+        "id": 14,
+        "name": "Auto-Fire",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff87",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x8",
+            "name": "Faster"
+          },
+          {
+            "value": "0x10",
+            "name": "Fast"
+          },
+          {
+            "value": "0x18",
+            "name": "Medium"
+          },
+          {
+            "value": "0x20",
+            "name": "Slow"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Cheats>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 16,
+        "name": "Invincibility",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff7f",
+        "value": "0x80",
+        "value_off": "0x0"
+      },
+      {
+        "id": 17,
+        "name": "Infinite Lives",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffeff",
+        "value": "0x100",
+        "value_off": "0x0"
+      },
+      {
+        "id": 18,
+        "name": "Weapon Select",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffff1ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x200",
+            "name": "Missile"
+          },
+          {
+            "value": "0x400",
+            "name": "Laser"
+          },
+          {
+            "value": "0x600",
+            "name": "Auto"
+          },
+          {
+            "value": "0x800",
+            "name": "Bomb"
+          },
+          {
+            "value": "0xa00",
+            "name": "3-Way"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Dip Switches>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 26,
+        "name": "Game Difficulty",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffffcff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "B"
+          },
+          {
+            "value": "0x100",
+            "name": "A"
+          },
+          {
+            "value": "0x200",
+            "name": "C"
+          },
+          {
+            "value": "0x300",
+            "name": "D"
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Extend",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffff3ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "30k/100k"
+          },
+          {
+            "value": "0x400",
+            "name": "50k/100k"
+          },
+          {
+            "value": "0x800",
+            "name": "100k"
+          },
+          {
+            "value": "0xc00",
+            "name": "None"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Player Count",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffcfff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "3"
+          },
+          {
+            "value": "0x1000",
+            "name": "5"
+          },
+          {
+            "value": "0x2000",
+            "name": "2"
+          },
+          {
+            "value": "0x3000",
+            "name": "1"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Region",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfff0ffff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "JPN/Taito"
+          },
+          {
+            "value": "0x10000",
+            "name": "USA/Taito"
+          },
+          {
+            "value": "0x20000",
+            "name": "EU/Taito"
+          },
+          {
+            "value": "0x30000",
+            "name": "JPN/Toaplan"
+          }
+        ]
+      }
+    ]
+  }
+}

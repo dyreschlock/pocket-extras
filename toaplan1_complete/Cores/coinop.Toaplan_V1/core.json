@@ -1,0 +1,41 @@
+{
+  "core": {
+    "magic": "APF_VER_1",
+    "metadata": {
+      "platform_ids": [
+        "toaplan1_c"
+      ],
+      "shortname": "Toaplan_V1",
+      "description": "Toaplan V1 Hardware",
+      "author": "coinop",
+      "url": "https://coinopcollection.org",
+      "version": "1.0.1",
+      "date_release": "2025-10-31"
+    },
+    "framework": {
+      "target_product": "Analogue Pocket",
+      "version_required": "1.1",
+      "sleep_supported": false,
+      "dock": {
+        "supported": true,
+        "analog_output": false
+      },
+      "hardware": {
+        "link_port": false,
+        "cartridge_adapter": -1
+      }
+    },
+    "cores": [
+      {
+        "name": "demonwld",
+        "filename": "demonwld.br",
+        "id": 0
+      },
+      {
+        "name": "zerowing",
+        "filename": "zerowing.br",
+        "id": 1
+      }
+    ]
+  }
+}

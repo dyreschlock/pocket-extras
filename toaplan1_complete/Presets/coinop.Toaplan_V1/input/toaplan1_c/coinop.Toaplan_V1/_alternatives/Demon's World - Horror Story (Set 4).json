@@ -1,0 +1,37 @@
+{
+  "input": {
+    "magic": "APF_VER_1",
+    "controllers": [
+      {
+        "type": "default",
+        "mappings": [
+          {
+            "name": "Shot",
+            "key": "pad_btn_a",
+            "id": 0
+          },
+          {
+            "name": "Jump",
+            "key": "pad_btn_b",
+            "id": 1
+          },
+          {
+            "name": "Rapid Fire",
+            "key": "pad_btn_x",
+            "id": 2
+          },
+          {
+            "name": "Start",
+            "key": "pad_btn_start",
+            "id": 3
+          },
+          {
+            "name": "Coin",
+            "key": "pad_btn_select",
+            "id": 4
+          }
+        ]
+      }
+    ]
+  }
+}

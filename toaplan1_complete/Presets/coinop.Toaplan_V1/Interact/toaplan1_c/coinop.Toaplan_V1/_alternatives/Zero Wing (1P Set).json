@@ -1,0 +1,316 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Reset Core",
+        "type": "action",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfd000000",
+        "mask": "0xfffffffe",
+        "value": "0x1"
+      },
+      {
+        "id": 11,
+        "name": "Options>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 12,
+        "name": "CPU Overclock",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffffe",
+        "value": "0x1",
+        "value_off": "0x0"
+      },
+      {
+        "id": 14,
+        "name": "Auto-Fire",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff87",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x8",
+            "name": "Faster"
+          },
+          {
+            "value": "0x10",
+            "name": "Fast"
+          },
+          {
+            "value": "0x18",
+            "name": "Medium"
+          },
+          {
+            "value": "0x20",
+            "name": "Slow"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "No Red-Flash",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff7f",
+        "value": "0x80",
+        "value_off": "0x0"
+      },
+      {
+        "id": 16,
+        "name": "Cheats>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 17,
+        "name": "Stage Select",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffff0ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x100",
+            "name": "Natols"
+          },
+          {
+            "value": "0x200",
+            "name": "Legrous"
+          },
+          {
+            "value": "0x300",
+            "name": "Pleades"
+          },
+          {
+            "value": "0x400",
+            "name": "Aquese"
+          },
+          {
+            "value": "0x500",
+            "name": "Submarine Tunnel"
+          },
+          {
+            "value": "0x600",
+            "name": "Barricade Zone"
+          },
+          {
+            "value": "0x700",
+            "name": "Belon"
+          },
+          {
+            "value": "0x800",
+            "name": "Gerbarra"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Invincibility",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffefff",
+        "value": "0x1000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 20,
+        "name": "Max Power",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffbfff",
+        "value": "0x4000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 21,
+        "name": "Max Speed",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffff7fff",
+        "value": "0x8000",
+        "value_off": "0x0"
+      },
+      {
+        "id": 22,
+        "name": "Weapon Select",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffcffff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x10000",
+            "name": "Vulcan"
+          },
+          {
+            "value": "0x20000",
+            "name": "Laser"
+          },
+          {
+            "value": "0x30000",
+            "name": "Homing"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Dip Switches>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 30,
+        "name": "Difficulty",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffffcff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Normal"
+          },
+          {
+            "value": "0x100",
+            "name": "Easy"
+          },
+          {
+            "value": "0x200",
+            "name": "Hard"
+          },
+          {
+            "value": "0x300",
+            "name": "Very Hard"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Extend",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffff3ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "200k 700k 500k+"
+          },
+          {
+            "value": "0x400",
+            "name": "500k 1500k 1000k+"
+          },
+          {
+            "value": "0x800",
+            "name": "500k Only"
+          },
+          {
+            "value": "0xc00",
+            "name": "None"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "No. of Player",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffcfff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "3"
+          },
+          {
+            "value": "0x1000",
+            "name": "5"
+          },
+          {
+            "value": "0x2000",
+            "name": "4"
+          },
+          {
+            "value": "0x3000",
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Region",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfff0ffff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "JPN"
+          },
+          {
+            "value": "0x10000",
+            "name": "USA"
+          },
+          {
+            "value": "0x20000",
+            "name": "EU"
+          },
+          {
+            "value": "0x30000",
+            "name": "EU"
+          }
+        ]
+      }
+    ]
+  }
+}
