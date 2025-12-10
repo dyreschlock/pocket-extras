@@ -10,7 +10,7 @@
       "author": "coinop",
       "url": "https://coinopcollection.org",
       "version": "1.0.1",
-      "date_release": "2025-10-31"
+      "date_release": "2025-12-10"
     },
     "framework": {
       "target_product": "Analogue Pocket",
@@ -35,6 +35,11 @@
         "name": "zerowing",
         "filename": "zerowing.br",
         "id": 1
+      },
+      {
+        "name": "twincobr",
+        "filename": "twincobr.br",
+        "id": 2
       }
     ]
   }

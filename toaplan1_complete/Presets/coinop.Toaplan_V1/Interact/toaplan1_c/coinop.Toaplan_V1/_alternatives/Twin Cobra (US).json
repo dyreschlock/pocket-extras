@@ -1,0 +1,272 @@
+{
+  "interact": {
+    "magic": "APF_VER_1",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Reset Core",
+        "type": "action",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfd000000",
+        "mask": "0xfffffffe",
+        "value": "0x1"
+      },
+      {
+        "id": 11,
+        "name": "Options>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 13,
+        "name": "Auto-Fire",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffffc3",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x4",
+            "name": "Faster"
+          },
+          {
+            "value": "0x8",
+            "name": "Fast"
+          },
+          {
+            "value": "0xc",
+            "name": "Medium"
+          },
+          {
+            "value": "0x10",
+            "name": "Slow"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Cheats>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 15,
+        "name": "P2 Cheats",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffffbf",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Off"
+          },
+          {
+            "value": "0x40",
+            "name": "Enabled"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Invincibility",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffff7f",
+        "value": "0x80",
+        "value_off": "0x0"
+      },
+      {
+        "id": 18,
+        "name": "Infinite Bombs",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffdff",
+        "value": "0x200",
+        "value_off": "0x0"
+      },
+      {
+        "id": 19,
+        "name": "Max Power",
+        "type": "check",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xfffffbff",
+        "value": "0x400",
+        "value_off": "0x0"
+      },
+      {
+        "id": 20,
+        "name": "Weapon Select",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfb000000",
+        "mask": "0xffffc7ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Default"
+          },
+          {
+            "value": "0x800",
+            "name": "Vulcan"
+          },
+          {
+            "value": "0x1000",
+            "name": "Laser"
+          },
+          {
+            "value": "0x1800",
+            "name": "Spread"
+          },
+          {
+            "value": "0x2000",
+            "name": "4-Way"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Dip Switches>",
+        "type": "action",
+        "enabled": false
+      },
+      {
+        "id": 24,
+        "name": "Service Mode",
+        "type": "list",
+        "enabled": true,
+        "persist": false,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffffffb",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "Normal"
+          },
+          {
+            "value": "0x4",
+            "name": "Screen Test"
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Game Difficulty",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffffcff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "B"
+          },
+          {
+            "value": "0x100",
+            "name": "A"
+          },
+          {
+            "value": "0x200",
+            "name": "C"
+          },
+          {
+            "value": "0x300",
+            "name": "D"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Extend",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xfffff3ff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "70k/200k"
+          },
+          {
+            "value": "0x400",
+            "name": "50k/150k"
+          },
+          {
+            "value": "0x800",
+            "name": "100k"
+          },
+          {
+            "value": "0xc00",
+            "name": "None"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Hero Count",
+        "type": "list",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffcfff",
+        "options": [
+          {
+            "value": "0x0",
+            "name": "3"
+          },
+          {
+            "value": "0x1000",
+            "name": "5"
+          },
+          {
+            "value": "0x2000",
+            "name": "4"
+          },
+          {
+            "value": "0x3000",
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Dip Switch Display",
+        "type": "check",
+        "enabled": true,
+        "persist": true,
+        "defaultval": 0,
+        "address": "0xfa000000",
+        "mask": "0xffffbfff",
+        "value": "0x4000",
+        "value_off": "0x0"
+      }
+    ]
+  }
+}

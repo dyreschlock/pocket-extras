@@ -1,0 +1,49 @@
+{
+  "instance": {
+    "magic": "APF_VER_1",
+    "core_select": {
+      "id": 2,
+      "select": true
+    },
+    "data_slots": [
+      {
+        "id": 1,
+        "filename": "twincobr.rom"
+      },
+      {
+        "id": 2,
+        "filename": "twincobr.sav"
+      }
+    ],
+    "memory_writes": [
+      {
+        "address": "0xf9000000",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfa000000",
+        "data": "0x00000000"
+      },
+      {
+        "address": "0xfb000000",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfb000004",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfb000008",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfb00000c",
+        "data": "0x0"
+      },
+      {
+        "address": "0xfc000000",
+        "data": "0x2"
+      }
+    ]
+  }
+}
